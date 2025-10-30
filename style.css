@@ -1,0 +1,47 @@
+/* Color scheme: */
+
+:root {
+  --primaryDark: #171414;
+  --accentGrey: #1e1c1c;
+  --primaryLightrey: #e3e3e3;
+  --darkRed: #2f0000;
+  --bloodRed: #840404;
+  --accentRed: #b80000;
+  --darkOrange: #b64000;
+  --lightOrange: #db7210;
+}
+
+body {
+  background-color: var(--primaryDark);
+}
+
+h2,
+h3,
+h4,
+p,
+a,
+span {
+  color: var(--primaryLightrey);
+}
+
+button {
+  background-color: var(--accentRed);
+}
+
+header.img {
+  max-width: 100%;
+}
+
+/* NAVBAR */
+nav {
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
