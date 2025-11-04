@@ -42,37 +42,53 @@
 
 
     <section class="currentSection">
-        <!-- Currently showing:
-    Mobile:
-    2 movie images
-    Arrows in both sides, click to show other??
+        <div class="current">
 
-    Desktop:
-    3 movie images
-    Each has a title and genre-->
-        <h2>Currently showing</h2>
-        <button class="currentMovies">See all</button>
+            <!-- Currently showing:
+            Mobile:
+            2 movie images
+            Arrows in both sides, click to show other??
+            
+            Desktop:
+            3 movie images
+            Each has a title and genre-->
+            <h2>Currently showing</h2>
+            <button class="btnSeeAllMovies">See all</button>
 
-        <button class="leftArrow"></button>
-        <a>
-            <img src="" alt="" />
-        </a>
-        <h4>MovieTitle</h4>
-        <p>Genre</p>
+            <button class="leftArrow"></button>
 
-        <a href="movie.php">
-            <img src="" alt="" />
-        </a>
-        <h4>MovieTitle</h4>
-        <p>Genre</p>
+            <div class="currentGrid">
+                <div class="currentMovie">
+                    <div class="currentMoviePoster">
 
-        <a>
-            <img src="" alt="" />
-        </a>
-        <h4>MovieTitle</h4>
-        <p>Genre</p>
+                        <!-- <a href="movie.php"> -->
+                        <!-- Poster 1 -->
+                        <!-- <img class="currentPoster" src="" alt="" /> -->
+                        <!-- </a> -->
+                    </div>
+                    <h4>MovieTitle</h4>
+                    <p>Genre</p>
+                </div>
 
-        <button class="rightArrow"></button>
+                <div class="currentMovie">
+                    <div class="currentMoviePoster">
+                        <!-- <img class="currentPoster" src="" alt="" /> -->
+                    </div>
+                    <h4>MovieTitle</h4>
+                    <p>Genre</p>
+                </div>
+
+                <div class="currentMovie">
+                    <div class="currentMoviePoster">
+                        <!-- <img class="currentPoster" src="" alt="" /> -->
+                    </div>
+                    <h4>MovieTitle</h4>
+                    <p>Genre</p>
+                </div>
+            </div>
+
+            <button class="rightArrow"></button>
+        </div>
     </section>
 
     <section class="offersSection">
@@ -87,17 +103,20 @@
      1 row:
         2 orange boxes with 1 offer in each, followed by 1 red button "See all"
       -->
+        <h2>Offers</h2>
         <div class="offers">
-            <h2>Offers</h2>
-            <div>
+            <div class="offerGrid">
                 <div class="offer">
                     <p>Free popcorn</p>
                 </div>
                 <div class="offer">
                     <p>2 for 1 <br> all drinks</p>
                 </div>
-                <!-- Vertical line https://www.w3schools.com/howto/howto_css_vertical_line.asp-->
-                <button>See all</button>
+            </div>
+            <!-- Vertical line https://www.w3schools.com/howto/howto_css_vertical_line.asp-->
+
+            <div class="seeAllOffers">
+                <button class="seeAllOffers">See all</button>
             </div>
         </div>
     </section>
@@ -111,39 +130,45 @@
      Desktop:
      1 row with 5 mini images
     -->
+
         <h2>Coming soon...</h2>
         <button class="leftArrow"></button>
-
-        <div class="comingMovieImg">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-        </div>
-
         <button class="rightArrow"></button>
+        <div class="comingGrid">
+            <div class="comingMoviePoster">
+                <img src="" alt="" />
+            </div>
+            <div class="comingMoviePoster">
+                <img src="" alt="" />
+            </div>
+            <div class="comingMoviePoster">
+                <img src="" alt="" />
+            </div>
+        </div>
     </section>
 
     <div class="hr">
         <hr>
     </div>
 
-    <section>
-        <!-- Newsletter:
-    
-    Mobile: "Want to know about offers and upcoming releases?
-    Sign up to our newletter below!"
+    <section class="newsletterSection">
+        <div class="newletterContainer">
 
-    Sign up here:
-    Input box           Button
-    -->
+            <!-- Newsletter:
+            
+            Mobile: "Want to know about offers and upcoming releases?
+            Sign up to our newletter below!"
+            
+            Sign up here:
+            Input box           Button
+            -->
 
-        <p>Want to know about offers and upcoming releases?<br>
-            Sign up to our newletter below!</p>
-        <label>Sign up here:</label><br>
-        <input type="email"></input>
-        <button>Sign up!</button>
+            <p>Want to know about offers and upcoming releases?<br>
+                Sign up to our newletter below!</p>
+            <label>Sign up here:</label><br>
+            <input type="email"></input>
+            <button>Sign up!</button>
+        </div>
     </section>
 
     <div class="hr">

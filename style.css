@@ -11,6 +11,10 @@
   --lightOrange: #db7210;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--primaryDark);
 }
@@ -22,6 +26,11 @@ p,
 a,
 span {
   color: var(--primaryLightrey);
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20%;
 }
 
 button {
@@ -44,4 +53,151 @@ nav {
   top: 0;
   display: flex;
   justify-content: space-between;
+  background-color: var(--accentRed);
+}
+
+/* Currently showing SECTION */
+
+.current {
+  background-color: var(--accentGrey);
+  margin: 0 auto;
+  position: relative;
+}
+
+.btnSeeAllMovies {
+  position: absolute;
+  top: 6%;
+  right: 3%;
+}
+
+.current .leftArrow {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+
+.current .rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+}
+
+.currentGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(80px, 3fr));
+  grid-template-rows: 1fr;
+  gap: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.currentMoviePoster {
+  background-color: lightblue;
+  width: 100%;
+  aspect-ratio: 3/5;
+}
+
+h4 {
+  margin-top: 20%;
+  margin-bottom: 0;
+}
+
+.current h2 {
+  padding-top: 5%;
+}
+
+.currentMovie p {
+  margin-top: 10%;
+  margin-bottom: 30%;
+}
+
+/* OFFERS SECTION */
+
+.offerGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(50px, 1fr));
+  grid-template-rows: 1fr;
+  gap: 80px;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 8%;
+}
+
+.offer {
+  background-color: var(--lightOrange);
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.seeAllOffers {
+  display: flex;
+  justify-content: center;
+}
+
+button.seeAllOffers {
+  background-color: var(--darkOrange);
+  color: var(--primaryLightrey);
+  font-size: 1.2rem;
+  width: 30vw;
+  height: 5vh;
+}
+
+/* Coming soon SECTION */
+
+.comingSection {
+  position: relative;
+}
+
+.comingGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(80px, 3fr));
+  grid-template-rows: 1fr;
+  gap: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+}
+
+.comingMoviePoster {
+  background-color: lightblue;
+  width: 100%;
+  aspect-ratio: 3/5;
+}
+
+.comingSection .leftArrow {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+.comingSection .rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}
+
+/* NEWSLETTER SECTION */
+
+.newsletterSection {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+input {
+  margin-right: 5%;
+}
+
+/* FOOTER SECTION */
+.footerGrid {
+  text-align: center;
+}
+
+.footerDiv {
+  margin-bottom: 15%;
 }

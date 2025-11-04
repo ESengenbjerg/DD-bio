@@ -18,21 +18,47 @@
     -->
 
     <!-- Small logo + Copyright -->
+    <div class="footerGrid">
 
-    <h3>About</h3>
-    <a>About us</a>
-    <a>Press</a>
-    <a>Our cinema</a>
+        <div class="footerDiv footerAbout">
+            <h3>About</h3>
+            <a>
+                <p>About us</p>
+            </a>
+            <a>
+                <p>Press</p>
+            </a>
+            <a>
+                <p>Our cinema</p>
+            </a>
+        </div>
 
-    <h3>Contact</h3>
-    <a>Find us</a>
-    <a>Call</a>
-    <a>Email</a>
+        <div class="footerDiv footerContact">
+            <h3>Contact</h3>
+            <a>
+                <p>Find us</p>
+            </a>
+            <a>
+                <p>Call</p>
+            </a>
+            <a>
+                <p>Email</p>
+            </a>
+        </div>
 
-    <h3>Work</h3>
-    <a>Bla bla bla</a>
-    <a>Bla bla bla</a>
-    <a>Bla bla bla</a>
+        <div class="footerDiv footerWork">
+            <h3>Work</h3>
+            <a>
+                <p>Bla bla bla</p>
+            </a>
+            <a>
+                <p>Bla bla bla</p>
+            </a>
+            <a>
+                <p>Bla bla bla</p>
+            </a>
+        </div>
+    </div>
 
     <img src="" alt="Midi logo of cinema" />
     <p>&copy; 2025</p>
