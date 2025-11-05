@@ -61,7 +61,7 @@
     </div>
 
     <img src="" alt="Midi logo of cinema" />
-    <p>&copy; 2025</p>
+    <p class="copyright">&copy; 2025</p>
 </footer>
 
 </body>

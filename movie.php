@@ -26,13 +26,9 @@
         </section>
     </nav>
 
-    <section class="forDesktop">
-
+    <section class="desktopFlex">
         <section class="moviePresentation">
-            <!-- Mini image with movie affisch
-            To the right: Text about the movie -->
             <div class="moviePresentation">
-                <!-- Flexbox  -->
                 <img class="smallPoster" src="" alt="movie poster" />
                 <p class="aboutMovie">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quod ipsum eligendi culpa id aperiam optio accusantium perspiciatis laudantium aliquam vel officiis autem. Repellat ad blanditiis commodi laboriosam culpa minima, illum dolores magni laborum, dicta molestiae explicabo, aliquam necessitatibus? Iusto natus magnam ratione sit officiis dolor omnis ad quaerat ullam.</p>
             </div>

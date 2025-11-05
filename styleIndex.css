@@ -207,6 +207,10 @@ input {
   margin-bottom: 15%;
 }
 
+.copyright {
+  text-align: start;
+}
+
 /* MEDIA QUERY */
 @media screen and (width > 1020px) {
   /* General rules */

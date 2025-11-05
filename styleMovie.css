@@ -89,7 +89,7 @@ section.factMovie {
 
 div.factMovie {
   background-color: var(--accentGrey);
-  border-radius: 10%;
+  border-radius: 20px;
   width: 80%;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -178,6 +178,8 @@ section.imgFromMovie {
   display: flex;
   justify-content: center;
   position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 img.imgFromMovie {
@@ -196,4 +198,110 @@ img.imgFromMovie {
   position: absolute;
   top: 50%;
   right: 5%;
+}
+
+/* FOOTER section */
+.footerGrid {
+  margin-top: 15%;
+  text-align: center;
+}
+
+.footerDiv {
+  margin-bottom: 15%;
+}
+
+.copyright {
+  text-align: start;
+}
+
+/* MEDIA QUERY */
+@media screen and (width > 1020px) {
+  /* General rules */
+  h2,
+  h4,
+  .current p {
+    font-size: 2rem;
+  }
+
+  h2 {
+    margin-top: 5%;
+  }
+
+  /* Movie presentation section */
+  section.desktopFlex {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .desktopFlex {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .moviePresentation {
+    width: 70%;
+    gap: 60px;
+  }
+
+  div.moviePresentation {
+    width: 100%;
+  }
+
+  .smallPoster {
+    max-width: 100%;
+  }
+
+  p.aboutMovie {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  div.factMovie {
+    width: 100%;
+    height: 70%;
+  }
+
+  /* Ticket section */
+  .ticket {
+    width: 60vw;
+    height: 15vh;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .dotLeft {
+    width: 40px;
+  }
+
+  .dotRight {
+    width: 40px;
+  }
+
+  /* ImgFromMovieSECTION */
+  img.imgFromMovie {
+    width: 50vw;
+  }
+
+  .imgFromMovie .leftArrow {
+    left: 17%;
+  }
+
+  .imgFromMovie .rightArrow {
+    right: 17%;
+  }
+
+  /* Footer Section */
+  .footerGrid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-rows: 1fr;
+    gap: 80px;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    margin-top: 5%;
+  }
 }
