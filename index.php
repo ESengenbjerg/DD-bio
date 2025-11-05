@@ -15,18 +15,6 @@
     </header>
     <nav>
         <section class="navbar">
-
-            <!-- Navbar
-            Mobile version: 
-            Minilogo
-            Menu
-            Search 
-            
-            Desktop version: 
-            Midi-logo
-            Menu
-            Search-->
-
             <a href="index.php">
                 <img src="" alt="Mini logo of the cinema" />
             </a>

@@ -1,0 +1,199 @@
+/* Color scheme: */
+
+:root {
+  --primaryDark: #171414;
+  --accentGrey: #1e1c1c;
+  --primaryLightrey: #e3e3e3;
+  --darkRed: #2f0000;
+  --bloodRed: #840404;
+  --accentRed: #b80000;
+  --darkOrange: #b64000;
+  --lightOrange: #db7210;
+}
+
+/* General rules */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primaryDark);
+}
+
+h2,
+h3,
+h4,
+p,
+a,
+span {
+  color: var(--primaryLightrey);
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20%;
+}
+
+button {
+  background-color: var(--accentRed);
+}
+
+header.img {
+  max-width: 100%;
+}
+
+/* NAVBAR */
+nav {
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--accentRed);
+}
+
+/* Movie presentation SECTION */
+.moviePresentation {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.smallPoster {
+  background-color: grey;
+  width: 45%;
+  aspect-ratio: 9/16;
+}
+
+p.aboutMovie {
+  width: 45%;
+  height: auto;
+  text-align: start;
+}
+
+/* Movie Facts SECTION */
+section.factMovie {
+  display: flex;
+  justify-content: center;
+}
+
+div.factMovie {
+  background-color: var(--accentGrey);
+  border-radius: 10%;
+  width: 80%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 3%;
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+
+.factHeader,
+.factText {
+  width: 35%;
+}
+
+.factHeader p,
+.factText p {
+  text-align: start;
+}
+
+/* Tickets section */
+section.tickets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.screeningsButton {
+  display: block;
+  width: 120px;
+}
+
+.ticket {
+  background-color: #927860;
+  width: 80vw;
+  height: 7vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(90px, 1fr));
+  gap: 20px;
+  place-items: center;
+}
+
+.borderBox {
+  width: 100%;
+  height: 98%;
+  border-left: 1px dashed var(--darkRed);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticketContainer {
+  position: relative;
+}
+
+.dotLeft {
+  background-color: var(--primaryDark);
+  z-index: 3;
+  border-radius: 50%;
+  position: absolute;
+  width: 20px;
+  aspect-ratio: 1;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+}
+
+.dotRight {
+  background-color: var(--primaryDark);
+  z-index: 3;
+  border-radius: 50%;
+  position: absolute;
+  width: 20px;
+  aspect-ratio: 1;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+
+/* ImgFromMovieSECTION */
+
+section.imgFromMovie {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+img.imgFromMovie {
+  background-color: grey;
+  width: 70vw;
+  aspect-ratio: 16/9;
+}
+
+.imgFromMovie .leftArrow {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+.imgFromMovie .rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}

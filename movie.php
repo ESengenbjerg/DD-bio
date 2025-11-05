@@ -7,30 +7,25 @@
     <title>MOVIE-TITLE</title>
     <link rel="stylesheet" href="styleMovie.css" />
 </head>
-<!-- Work mobile first -->
 
 <body>
     <header>
         <!-- Movie pic -->
         <img src="" alt="Big picture of the movie" />
     </header>
+
     <nav>
-        <!-- Navbar
-         Mobile version: 
-         Minilogo
-         Menu
-         Search 
-         
-         Desktop version: 
-         Midi-logo
-         Menu
-         Search-->
-        <a href="index.php">
-            <img src="" alt="Mini logo of the cinema" />
-        </a>
-        <div>Menu</div>
-        <div class="search"><img src="" alt="magnifying glass for search function" /></div>
+        <section class="navbar">
+            <a href="index.php">
+                <img src="" alt="Mini logo of the cinema" />
+            </a>
+            <div>
+                <p>Menu</p>
+            </div>
+            <div class="search"><img src="" alt="magnifying glass for search function" /></div>
+        </section>
     </nav>
+
     <section class="forDesktop">
 
         <section class="moviePresentation">
@@ -38,31 +33,31 @@
             To the right: Text about the movie -->
             <div class="moviePresentation">
                 <!-- Flexbox  -->
-                <img src="" alt="movie affisch" />
-                <p>Text about the movie</p>
+                <img class="smallPoster" src="" alt="movie poster" />
+                <p class="aboutMovie">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quod ipsum eligendi culpa id aperiam optio accusantium perspiciatis laudantium aliquam vel officiis autem. Repellat ad blanditiis commodi laboriosam culpa minima, illum dolores magni laborum, dicta molestiae explicabo, aliquam necessitatibus? Iusto natus magnam ratione sit officiis dolor omnis ad quaerat ullam.</p>
             </div>
         </section>
 
         <section class="factMovie">
             <div class="factMovie">
-                <p>Length:</p>
-                <p>Director:</p>
-                <p>Age limit:</p>
-                <p>Actors:</p>
+                <div class="factHeader">
 
-                <p>115 minutes</p>
-                <p>Rune</p>
-                <p>16 years</p>
-                <p>Rune's friend</p>
-                <p>Rune's mother</p>
-                <p>Rune's neighbor</p>
-                <p>Rune's plumber</p>
+                    <p><strong>Length:</strong></p>
+                    <p><strong>Director:</strong></p>
+                    <p><strong>Age limit:</strong></p>
+                    <p><strong>Actors:</strong></p>
+                </div>
+
+                <div class="factText">
+                    <p>115 minutes</p>
+                    <p>Rune</p>
+                    <p>16 years</p>
+                    <p>Rune's friend</p>
+                    <p>Rune's mother</p>
+                    <p>Rune's neighbor</p>
+                    <p>Rune's plumber</p>
+                </div>
             </div>
-            <!--  
-                Mobile:
-                1 box with 2 columns
-                
-                Desktop: This section is parallell with the section above-->
         </section>
     </section>
 
@@ -71,38 +66,42 @@
     </div>
 
     <section class="tickets">
+        <h2>Tickets</h2>
+        <button class="screeningsButton">All Screenings</button>
         <div class="ticketContainer">
-            <div class="dot"></div>
+            <div class="dotLeft"></div>
             <div class="ticket">
-                <p></p>
-                <p></p>
-                <p></p>
-                <button class="bookTicket"></button>
+                <p>Text</p>
+                <p>Text</p>
+                <div class="borderBox">
+                    <button class="bookTicket">Book!</button>
+                </div>
             </div>
-            <div class="dot"></div>
+            <div class="dotRight"></div>
         </div>
 
         <div class="ticketContainer">
-            <div class="dot"></div>
+            <div class="dotLeft"></div>
             <div class="ticket">
-                <p></p>
-                <p></p>
-                <p></p>
-                <button class="bookTicket"></button>
+                <p>Text</p>
+                <p>Text</p>
+                <div class="borderBox">
+                    <button class="bookTicket">Book!</button>
+                </div>
             </div>
-            <div class="dot"></div>
+            <div class="dotRight"></div>
         </div>
 
         <div class="ticketContainer">
-            <div class="dot"></div>
+            <div class="dotLeft"></div>
             <div class="ticket">
-
-                <p></p>
-                <p></p>
-                <p></p>
-                <button class="bookTicket"></button>
+                <p>Text</p>
+                <p>Text</p>
+                <div class="borderBox">
+                    <button class="bookTicket">Book!</button>
+                </div>
             </div>
-            <div class="dot"></div>
+            <div class="dotRight"></div>
         </div>
 
         <!-- Tickets
@@ -114,11 +113,7 @@
 
     <section class="imgFromMovie">
         <button class="leftArrow"></button>
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
+        <img class="imgFromMovie" src="" alt="" />
         <button class="rightArrow"></button>
     </section>
 
