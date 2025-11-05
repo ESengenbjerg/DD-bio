@@ -71,25 +71,27 @@ nav {
   right: 3%;
 }
 
-.current .leftArrow {
+.currentPosterGrid .leftArrow {
   position: absolute;
   top: 50%;
-  left: 2%;
+  left: -10%;
 }
 
-.current .rightArrow {
+.currentPosterGrid .rightArrow {
   position: absolute;
   top: 50%;
-  right: 2%;
+  right: -10%;
 }
 
-.currentGrid {
+.currentPosterGrid,
+.currentTextGrid {
   display: grid;
   grid-template-columns: repeat(3, minmax(80px, 3fr));
   grid-template-rows: 1fr;
   gap: 30px;
   margin-left: 10%;
   margin-right: 10%;
+  position: relative;
 }
 
 .currentMoviePoster {
@@ -107,10 +109,10 @@ h4 {
   padding-top: 5%;
 }
 
-.currentMovie p {
+/* .currentMovie p {
   margin-top: 10%;
   margin-bottom: 30%;
-}
+} */
 
 /* OFFERS SECTION */
 
@@ -160,6 +162,7 @@ button.seeAllOffers {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 20%;
+  position: relative;
 }
 
 .comingMoviePoster {
@@ -171,13 +174,13 @@ button.seeAllOffers {
 .comingSection .leftArrow {
   position: absolute;
   top: 50%;
-  left: 5%;
+  left: -10%;
 }
 
 .comingSection .rightArrow {
   position: absolute;
   top: 50%;
-  right: 5%;
+  right: -10%;
 }
 
 /* NEWSLETTER SECTION */
@@ -213,11 +216,25 @@ input {
     font-size: 2rem;
   }
 
-  /* Current Section */
-  .currentGrid {
-    gap: 80px;
+  h2 {
+    margin-top: 5%;
   }
 
+  /* Current Section */
+  .currentPosterGrid,
+  .currentTextGrid {
+    gap: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .currentPosterGrid .leftArrow {
+    left: -8%;
+  }
+
+  .currentPosterGrid .rightArrow {
+    right: -8%;
+  }
   /* Offers Section */
 
   .offersFlex {
@@ -236,6 +253,10 @@ input {
   /* Coming soon section */
   .comingGrid {
     gap: 80px;
+    grid-template-columns: repeat(3, minmax(80px, 3fr));
+    margin-bottom: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   /* Footer Section */
@@ -247,5 +268,7 @@ input {
     gap: 80px;
     margin-left: 15%;
     margin-right: 15%;
+    align-items: center;
+    margin-top: 5%;
   }
 }

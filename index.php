@@ -54,40 +54,42 @@
             Each has a title and genre-->
             <h2>Currently showing</h2>
             <button class="btnSeeAllMovies">See all</button>
-
-            <button class="leftArrow"></button>
-
-            <div class="currentGrid">
-                <div class="currentMovie">
-                    <div class="currentMoviePoster">
-
-                        <!-- <a href="movie.php"> -->
-                        <!-- Poster 1 -->
-                        <!-- <img class="currentPoster" src="" alt="" /> -->
-                        <!-- </a> -->
-                    </div>
-                    <h4>MovieTitle</h4>
-                    <p>Genre</p>
+            <div class="currentPosterGrid">
+                <button class="leftArrow"></button>
+                <button class="rightArrow"></button>
+                <div class="currentMoviePoster">
+                    <!-- <a href="movie.php"> -->
+                    <!-- Poster 1 -->
+                    <!-- <img class="currentPoster" src="" alt="" /> -->
+                    <!-- </a> -->
                 </div>
 
-                <div class="currentMovie">
-                    <div class="currentMoviePoster">
-                        <!-- <img class="currentPoster" src="" alt="" /> -->
-                    </div>
-                    <h4>MovieTitle</h4>
-                    <p>Genre</p>
+                <div class="currentMoviePoster">
+                    <!-- <img class="currentPoster" src="" alt="" /> -->
                 </div>
 
-                <div class="currentMovie">
-                    <div class="currentMoviePoster">
-                        <!-- <img class="currentPoster" src="" alt="" /> -->
-                    </div>
-                    <h4>MovieTitle</h4>
-                    <p>Genre</p>
+                <div class="currentMoviePoster">
+                    <!-- <img class="currentPoster" src="" alt="" /> -->
                 </div>
             </div>
 
-            <button class="rightArrow"></button>
+            <div class="currentTextGrid">
+                <div class="currentText">
+                    <h4>MovieTitle1</h4>
+                    <p>Genre1</p>
+                </div>
+
+                <div class="currentText">
+                    <h4>MovieTitle2</h4>
+                    <p>Genre2</p>
+                </div>
+
+                <div class="currentText">
+                    <h4>MovieTitle3</h4>
+                    <p>Genre3</p>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -132,9 +134,9 @@
     -->
 
         <h2>Coming soon...</h2>
-        <button class="leftArrow"></button>
-        <button class="rightArrow"></button>
         <div class="comingGrid">
+            <button class="leftArrow"></button>
+            <button class="rightArrow"></button>
             <div class="comingMoviePoster">
                 <img src="" alt="" />
             </div>
