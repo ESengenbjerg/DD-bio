@@ -59,8 +59,12 @@ nav {
 
 /* Currently showing SECTION */
 
-.current {
+.currentSection {
+  width: 100vw;
   background-color: var(--accentGrey);
+}
+
+.current {
   margin: 0 auto;
   position: relative;
 }
@@ -152,6 +156,10 @@ button.seeAllOffers {
 
 .comingSection {
   position: relative;
+  width: 100%;
+  background-color: var(--accentGrey);
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .comingGrid {
@@ -225,6 +233,11 @@ input {
   }
 
   /* Current Section */
+
+  .current {
+    width: 80vw;
+  }
+
   .currentPosterGrid,
   .currentTextGrid {
     gap: 80px;
@@ -243,7 +256,7 @@ input {
 
   .offersFlex {
     display: flex;
-    align-items: center;
+    align-items: baseline;
   }
 
   .offerGrid {
@@ -261,6 +274,7 @@ input {
     margin-bottom: 10%;
     margin-left: 15%;
     margin-right: 15%;
+    /* max-width: 60vw; */
   }
 
   /* Footer Section */
