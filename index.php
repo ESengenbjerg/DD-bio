@@ -104,7 +104,7 @@
         2 orange boxes with 1 offer in each, followed by 1 red button "See all"
       -->
         <h2>Offers</h2>
-        <div class="offers">
+        <div class="offersFlex">
             <div class="offerGrid">
                 <div class="offer">
                     <p>Free popcorn</p>

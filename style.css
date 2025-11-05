@@ -43,9 +43,10 @@ header.img {
 
 /* NAVBAR */
 nav {
-  width: 100%;
+  width: 100vw;
   position: sticky;
   top: 0;
+  z-index: 5;
 }
 
 .navbar {
@@ -195,9 +196,56 @@ input {
 
 /* FOOTER SECTION */
 .footerGrid {
+  margin-top: 20%;
   text-align: center;
 }
 
 .footerDiv {
   margin-bottom: 15%;
+}
+
+/* MEDIA QUERY */
+@media screen and (width > 1020px) {
+  /* General rules */
+  h2,
+  h4,
+  .current p {
+    font-size: 2rem;
+  }
+
+  /* Current Section */
+  .currentGrid {
+    gap: 80px;
+  }
+
+  /* Offers Section */
+
+  .offersFlex {
+    display: flex;
+    align-items: center;
+  }
+
+  .offerGrid {
+    width: 45%;
+  }
+
+  .seeAllOffers {
+    width: 45%;
+  }
+
+  /* Coming soon section */
+  .comingGrid {
+    gap: 80px;
+  }
+
+  /* Footer Section */
+
+  .footerGrid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-rows: 1fr;
+    gap: 80px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
