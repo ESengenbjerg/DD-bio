@@ -292,6 +292,10 @@ input {
     width: 45%;
   }
 
+  button.seeAllOffers {
+    width: 10vw;
+  }
+
   /* Coming soon section */
   .comingGrid {
     gap: 80px;
