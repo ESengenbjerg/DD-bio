@@ -42,6 +42,10 @@ header.img {
   max-width: 100%;
 }
 
+hr {
+  width: 70vw;
+}
+
 /* NAVBAR */
 nav {
   width: 100vw;
@@ -173,7 +177,6 @@ section.tickets {
 }
 
 /* ImgFromMovieSECTION */
-
 section.imgFromMovie {
   display: flex;
   justify-content: center;

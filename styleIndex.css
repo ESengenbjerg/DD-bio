@@ -41,6 +41,39 @@ header.img {
   max-width: 100%;
 }
 
+hr {
+  width: 70vw;
+}
+
+/* HEADER */
+.headerImage {
+  width: 100vw;
+  height: 70vh;
+  object-fit: cover;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  75% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 /* NAVBAR */
 nav {
   width: 100vw;

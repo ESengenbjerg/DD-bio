@@ -10,8 +10,8 @@
 
 <body>
     <header>
-        <!-- Logo pic -->
-        <img src="" alt="Big logo of the cinema" />
+        <!-- Logo pic - CHANGE THIS! -->
+        <img class="headerImage" src="https://images.unsplash.com/photo-1487174244970-cd18784bb4a4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvcnJvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=900" alt="Big logo of the cinema" />
     </header>
     <nav>
         <section class="navbar">
