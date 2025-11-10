@@ -30,7 +30,8 @@ span {
 }
 
 h2 {
-  margin-top: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 button {
@@ -48,7 +49,7 @@ hr {
 /* HEADER */
 .headerImage {
   width: 100vw;
-  height: 70vh;
+  height: 30vh;
   object-fit: cover;
   animation-name: fadeIn;
   animation-duration: 3s;
@@ -75,8 +76,6 @@ nav {
 }
 
 .navbar {
-  position: sticky;
-  top: 0;
   display: flex;
   justify-content: space-between;
   background-color: var(--accentRed);
@@ -87,6 +86,7 @@ nav {
 .currentSection {
   width: 100vw;
   background-color: var(--accentGrey);
+  padding-bottom: 5%;
 }
 
 .current {
@@ -138,11 +138,6 @@ h4 {
   padding-top: 5%;
 }
 
-/* .currentMovie p {
-  margin-top: 10%;
-  margin-bottom: 30%;
-} */
-
 /* OFFERS SECTION */
 
 .offerGrid {
@@ -167,6 +162,7 @@ h4 {
 div.seeAllOffers {
   display: flex;
   justify-content: center;
+  padding-bottom: 10%;
 }
 
 button.seeAllOffers {
@@ -185,6 +181,7 @@ button.seeAllOffers {
   background-color: var(--accentGrey);
   padding-top: 2%;
   padding-bottom: 2%;
+  margin-bottom: 10%;
 }
 
 .comingGrid {
@@ -257,10 +254,22 @@ input {
     margin-top: 5%;
   }
 
+  /* Header */
+  .headerImage {
+    height: 60vh;
+  }
+
   /* Current Section */
 
   .current {
     width: 80vw;
+  }
+
+  .btnSeeAllMovies {
+    width: 7vw;
+    height: 7vh;
+    top: 7%;
+    right: 0%;
   }
 
   .currentPosterGrid,
@@ -278,6 +287,13 @@ input {
     right: -8%;
   }
   /* Offers Section */
+
+  .offersSection {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
 
   .offersFlex {
     display: flex;
@@ -297,13 +313,20 @@ input {
   }
 
   /* Coming soon section */
+  .comingSection {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+
   .comingGrid {
     gap: 80px;
     grid-template-columns: repeat(3, minmax(80px, 3fr));
     margin-bottom: 10%;
     margin-left: 15%;
     margin-right: 15%;
-    /* max-width: 60vw; */
+    max-width: 60vw;
   }
 
   /* Footer Section */
