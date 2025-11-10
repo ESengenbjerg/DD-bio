@@ -64,37 +64,64 @@
     <section class="tickets">
         <h2>Tickets</h2>
         <button class="screeningsButton">All Screenings</button>
-        <div class="ticketContainer">
-            <div class="dotLeft"></div>
-            <div class="ticket">
-                <p>Text</p>
-                <p>Text</p>
-                <div class="borderBox">
-                    <button class="bookTicket">Book!</button>
-                </div>
-            </div>
-            <div class="dotRight"></div>
+        <div class="date">
+            <p class="date">Wednesday 3/12</p>
         </div>
 
         <div class="ticketContainer">
             <div class="dotLeft"></div>
             <div class="ticket">
-                <p>Text</p>
-                <p>Text</p>
+                <div class="ticketText">
+                    <p>19:00</p>
+                    <p>Weapons</p>
+                    <span class="time">2h 8m</span>
+                    <span class="age">Age: 15</span>
+                </div>
+
                 <div class="borderBox">
-                    <button class="bookTicket">Book!</button>
+                    <button class="bookTicket">Buy<br>ticket!</button>
                 </div>
             </div>
             <div class="dotRight"></div>
         </div>
 
+        <div class="date">
+            <p class="date">Wednesday 3/12</p>
+        </div>
+
         <div class="ticketContainer">
             <div class="dotLeft"></div>
             <div class="ticket">
-                <p>Text</p>
-                <p>Text</p>
+                <div class="ticketText">
+                    <p>21:30</p>
+                    <p>Weapons</p>
+                    <span class="time">2h 8m</span>
+                    <span class="age">Age: 15</span>
+                </div>
+
                 <div class="borderBox">
-                    <button class="bookTicket">Book!</button>
+                    <button class="bookTicket">Buy<br>ticket!</button>
+                </div>
+            </div>
+            <div class="dotRight"></div>
+        </div>
+
+        <div class="date">
+            <p class="date">Wednesday 3/12</p>
+        </div>
+
+        <div class="ticketContainer">
+            <div class="dotLeft"></div>
+            <div class="ticket">
+                <div class="ticketText">
+                    <p>19:00</p>
+                    <p>Weapons</p>
+                    <span class="time">2h 8m</span>
+                    <span class="age">Age: 15</span>
+                </div>
+
+                <div class="borderBox">
+                    <button class="bookTicket">Buy<br>ticket!</button>
                 </div>
             </div>
             <div class="dotRight"></div>

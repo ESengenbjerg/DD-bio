@@ -126,17 +126,45 @@ section.tickets {
   width: 120px;
 }
 
+div.date {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  margin-left: 20%;
+}
+
+p.date {
+  margin-top: 7%;
+  margin-bottom: 0;
+}
+
 .ticket {
   background-color: #927860;
   width: 80vw;
-  height: 7vh;
+  height: 12vh;
   margin-top: 5%;
   margin-bottom: 5%;
   border-radius: 20px;
   display: grid;
-  grid-template-columns: repeat(3, minmax(90px, 1fr));
+  grid-template-columns: 2fr 1fr;
   gap: 20px;
   place-items: center;
+}
+
+.ticketText {
+  width: 70%;
+}
+
+.ticketText p {
+  text-align: start;
+  margin-top: 0;
+}
+
+.ticketText span {
+  background-color: var(--primaryDark);
+  padding: 5%;
+  font-size: 0.7rem;
+  border-radius: 5px;
 }
 
 .borderBox {
