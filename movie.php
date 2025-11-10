@@ -79,7 +79,7 @@
                 </div>
 
                 <div class="borderBox">
-                    <button class="bookTicket">Buy<br>ticket!</button>
+                    <button class="buyTicket">BUY<br>TICKET!</button>
                 </div>
             </div>
             <div class="dotRight"></div>
@@ -100,7 +100,7 @@
                 </div>
 
                 <div class="borderBox">
-                    <button class="bookTicket">Buy<br>ticket!</button>
+                    <button class="buyTicket">BUY<br>TICKET!</button>
                 </div>
             </div>
             <div class="dotRight"></div>
@@ -121,7 +121,7 @@
                 </div>
 
                 <div class="borderBox">
-                    <button class="bookTicket">Buy<br>ticket!</button>
+                    <button class="buyTicket">BUY<br>TICKET!</button>
                 </div>
             </div>
             <div class="dotRight"></div>
