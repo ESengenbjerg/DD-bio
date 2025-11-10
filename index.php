@@ -36,18 +36,22 @@
                 <button class="leftArrow"></button>
                 <button class="rightArrow"></button>
                 <div class="currentMoviePoster">
-                    <a href="movie.php">
+                    <a href="/movie.php">
                         <!-- Poster 1 -->
                         <img class="currentPoster" src="" alt="" />
                     </a>
                 </div>
 
                 <div class="currentMoviePoster">
-                    <img class="currentPoster" src="" alt="" />
+                    <a href="/movie.php">
+                        <img class="currentPoster" src="/assets/WEAPONS-POSTER.jpg" alt="" />
+                    </a>
                 </div>
 
                 <div class="currentMoviePoster">
-                    <img class="currentPoster" src="" alt="" />
+                    <a href="/movie.php">
+                        <img class="currentPoster" src="" alt="" />
+                    </a>
                 </div>
             </div>
 

@@ -123,10 +123,17 @@ nav {
   position: relative;
 }
 
-.currentMoviePoster {
+/* .currentMoviePoster {
   background-color: lightblue;
   width: 100%;
   aspect-ratio: 3/5;
+  object-fit: cover;
+} */
+
+.currentPoster {
+  aspect-ratio: 3/5;
+  object-fit: cover;
+  width: 100%;
 }
 
 h4 {

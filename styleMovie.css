@@ -204,6 +204,10 @@ p.date {
   transform: translate(-50%, -50%);
 }
 
+section.tickets {
+  margin-bottom: 10%;
+}
+
 /* ImgFromMovieSECTION */
 section.imgFromMovie {
   display: flex;
@@ -283,6 +287,7 @@ img.imgFromMovie {
 
   .smallPoster {
     max-width: 100%;
+    object-fit: cover;
   }
 
   p.aboutMovie {
