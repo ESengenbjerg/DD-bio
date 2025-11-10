@@ -1,21 +1,4 @@
 <footer>
-    <!-- 
-     
-    Mobile:
-    About
-    3 links
-    
-    Contact
-    3 links 
-    
-    Work
-    3 links
-    
-    Desktop:
-    3 columns with links
-    About           Contact         Work
-    3 links         3 links         3 links
-    -->
 
     <!-- Small logo + Copyright -->
     <div class="footerGrid">
@@ -23,39 +6,42 @@
         <div class="footerDiv footerAbout">
             <h3>About</h3>
             <a>
-                <p>About us</p>
+                <p>Sustainability</p>
             </a>
             <a>
-                <p>Press</p>
+                <p>Newsroom</p>
             </a>
             <a>
-                <p>Our cinema</p>
+                <p>Events</p>
+            </a>
+            <a>
+                <p>Discounts</p>
             </a>
         </div>
 
         <div class="footerDiv footerContact">
-            <h3>Contact</h3>
+            <h3>Support</h3>
             <a>
-                <p>Find us</p>
+                <p>Support us</p>
             </a>
             <a>
-                <p>Call</p>
-            </a>
-            <a>
-                <p>Email</p>
+                <p>FAQ</p>
             </a>
         </div>
 
         <div class="footerDiv footerWork">
             <h3>Work</h3>
             <a>
-                <p>Bla bla bla</p>
+                <p>Work for us</p>
             </a>
             <a>
-                <p>Bla bla bla</p>
+                <p>Investors</p>
             </a>
             <a>
-                <p>Bla bla bla</p>
+                <p>Careers</p>
+            </a>
+            <a>
+                <p>Market</p>
             </a>
         </div>
     </div>

@@ -336,7 +336,7 @@ img.imgFromMovie {
     gap: 80px;
     margin-left: 15%;
     margin-right: 15%;
-    align-items: center;
+    align-items: start;
     margin-top: 5%;
   }
 }
