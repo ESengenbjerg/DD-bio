@@ -215,6 +215,7 @@ button.seeAllOffers {
   aspect-ratio: 3/5;
   border-radius: 10px;
   object-fit: cover;
+  transition: transform 0.4s ease, opacity 0.4s ease;
 }
 
 .comingSection .leftArrow {
