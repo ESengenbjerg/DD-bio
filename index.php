@@ -114,15 +114,6 @@
         <section class="newsletterSection">
             <div class="newletterContainer">
 
-                <!-- Newsletter:
-            
-            Mobile: "Want to know about offers and upcoming releases?
-            Sign up to our newletter below!"
-            
-            Sign up here:
-            Input box           Button
-            -->
-
                 <p>Want to know about offers and upcoming releases?<br>
                     Sign up to our newletter below!</p>
                 <label>Sign up here:</label><br>

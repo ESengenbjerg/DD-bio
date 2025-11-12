@@ -28,7 +28,8 @@ h3,
 h4,
 p,
 a,
-span {
+span,
+label {
   color: var(--primaryLightrey);
   text-align: center;
 }
@@ -240,6 +241,8 @@ button.seeAllOffers {
 
 input {
   margin-right: 5%;
+  height: 2.5rem;
+  width: 12rem;
 }
 
 /* FOOTER SECTION */
