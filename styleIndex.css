@@ -300,6 +300,12 @@ footer {
     height: 60vh;
   }
 
+  /* Navbar */
+  .navLogo {
+    width: 12vw;
+    height: 8vh;
+  }
+
   /* Current Section */
 
   .current {

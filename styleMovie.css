@@ -38,10 +38,10 @@ button {
   background-color: var(--accentRed);
 }
 
-header.img {
+.headerPoster {
   width: 100vw;
+  height: 30vh;
   object-fit: cover;
-  height: 40vh;
 }
 
 hr {
@@ -276,6 +276,16 @@ img.imgFromMovie {
 
   h2 {
     margin-top: 5%;
+  }
+
+  .headerImage {
+    height: 60vh;
+  }
+
+  /* Navbar */
+  .navLogo {
+    width: 12vw;
+    height: 8vh;
   }
 
   /* Movie presentation section */
