@@ -20,6 +20,10 @@ body {
   background-color: var(--primaryDark);
 }
 
+main {
+  position: relative;
+}
+
 h2,
 h3,
 h4,
@@ -246,9 +250,25 @@ img.imgFromMovie {
 }
 
 /* FOOTER section */
+
+footer {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
 .footerGrid {
-  margin-top: 15%;
+  margin-top: 20%;
   text-align: center;
+}
+
+.footerBackground {
+  z-index: -2;
+  width: 100vw;
+  height: 72vh;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .footerDiv {
@@ -257,12 +277,14 @@ img.imgFromMovie {
 
 .copyright {
   text-align: start;
+  margin-left: 5vw;
 }
 
 .footerLogo {
   width: 20vw;
   height: 5vh;
   object-fit: cover;
+  margin-left: 5vw;
 }
 
 /* MEDIA QUERY */
@@ -381,5 +403,14 @@ img.imgFromMovie {
     margin-right: 15%;
     align-items: start;
     margin-top: 5%;
+  }
+
+  .footerBackground {
+    height: 60vh;
+  }
+
+  .footerLogo {
+    width: 10vw;
+    height: 10vh;
   }
 }
