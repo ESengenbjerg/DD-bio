@@ -78,7 +78,16 @@ nav {
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: var(--accentRed);
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.navLogo {
+  width: 10vw;
+  height: 10vw;
+  object-fit: cover;
 }
 
 /* Currently showing SECTION */
@@ -321,7 +330,7 @@ input {
 
   /* Coming soon section */
   .comingSection {
-    width: 70%;
+    width: 70vw;
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -333,7 +342,8 @@ input {
     margin-bottom: 10%;
     margin-left: 15%;
     margin-right: 15%;
-    max-width: 60vw;
+    max-width: 70vw;
+    /* width: 70vw; */
   }
 
   /* Footer Section */

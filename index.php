@@ -16,14 +16,20 @@
     <nav>
         <section class="navbar">
             <a href="index.php">
-                <img src="" alt="Mini logo of the cinema" />
+                <img class="navLogo" src="https://images.unsplash.com/photo-1762661122540-10645eafc95c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1NXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900" alt="Mini logo of the cinema" />
             </a>
             <div>
                 <p>
-                    Menu
+                    Current
                 </p>
             </div>
-            <div class="search"><img src="" alt="magnifying glass for search function" /></div>
+            <div>
+                <p>All Movies</p>
+            </div>
+            <div>
+                <p>Information</p>
+            </div>
+            <!-- <div class="search"><img src="" alt="magnifying glass for search function" /></div> -->
         </section>
     </nav>
 
@@ -38,37 +44,37 @@
                 <div class="currentMoviePoster">
                     <a href="/movie.php">
                         <!-- Poster 1 -->
-                        <img class="currentPoster" src="" alt="" />
+                        <img class="currentPoster" src="/assets/BlackPhone-poster.jpg" alt="Black Phone poster" />
                     </a>
                 </div>
 
                 <div class="currentMoviePoster">
                     <a href="/movie.php">
-                        <img class="currentPoster" src="/assets/WEAPONS-POSTER.jpg" alt="" />
+                        <img class="currentPoster" src="/assets/WEAPONS-POSTER.jpg" alt="Weapons poster" />
                     </a>
                 </div>
 
                 <div class="currentMoviePoster">
                     <a href="/movie.php">
-                        <img class="currentPoster" src="" alt="" />
+                        <img class="currentPoster" src="/assets/freddys2-poster.jpg" alt="Freddys2 poster" />
                     </a>
                 </div>
             </div>
 
             <div class="currentTextGrid">
                 <div class="currentText">
-                    <h4>MovieTitle1</h4>
-                    <p>Genre1</p>
+                    <h4>Black Phone 2</h4>
+                    <p>Psychological Horror</p>
                 </div>
 
                 <div class="currentText">
-                    <h4>MovieTitle2</h4>
-                    <p>Genre2</p>
+                    <h4>Weapons</h4>
+                    <p>Supernatural Mystery Horror</p>
                 </div>
 
                 <div class="currentText">
-                    <h4>MovieTitle3</h4>
-                    <p>Genre3</p>
+                    <h4>Good Boy</h4>
+                    <p>Supernatural Horror</p>
                 </div>
             </div>
 
