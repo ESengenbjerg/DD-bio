@@ -91,6 +91,7 @@ nav {
   background-color: grey;
   width: 45%;
   aspect-ratio: 9/16;
+  border-radius: 10px;
 }
 
 p.aboutMovie {
@@ -336,6 +337,7 @@ footer {
   .smallPoster {
     max-width: 100%;
     object-fit: cover;
+    border-radius: 20px;
   }
 
   p.aboutMovie {
