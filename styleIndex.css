@@ -19,6 +19,10 @@ body {
   background-color: var(--primaryDark);
 }
 
+main {
+  position: relative;
+}
+
 h2,
 h3,
 h4,
@@ -86,7 +90,7 @@ nav {
 
 .navLogo {
   width: 10vw;
-  height: 10vw;
+  height: 3vh;
   object-fit: cover;
 }
 
@@ -244,9 +248,24 @@ input {
 }
 
 /* FOOTER SECTION */
+footer {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
 .footerGrid {
   margin-top: 20%;
   text-align: center;
+}
+
+.footerBackground {
+  z-index: -2;
+  width: 100vw;
+  height: 72vh;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .footerDiv {
@@ -255,6 +274,14 @@ input {
 
 .copyright {
   text-align: start;
+  margin-left: 5vw;
+}
+
+.footerLogo {
+  width: 20vw;
+  height: 5vh;
+  object-fit: cover;
+  margin-left: 5vw;
 }
 
 /* MEDIA QUERY */
@@ -357,5 +384,9 @@ input {
     margin-right: 15%;
     align-items: start;
     margin-top: 5%;
+  }
+
+  .footerBackground {
+    height: 50vh;
   }
 }

@@ -1,6 +1,7 @@
 <footer>
 
     <!-- Small logo + Copyright -->
+    <img class="footerBackground" src="assets/footerBackground.png" alt="Red background on footer" />
     <div class="footerGrid">
 
         <div class="footerDiv footerAbout">
@@ -46,10 +47,6 @@
         </div>
     </div>
 
-    <img src="" alt="Midi logo of cinema" />
+    <img class="footerLogo" src="https://images.unsplash.com/photo-1762661122540-10645eafc95c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1NXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900" alt="Midi logo of cinema" />
     <p class="copyright">&copy; 2025</p>
 </footer>
-
-</body>
-
-</html>
