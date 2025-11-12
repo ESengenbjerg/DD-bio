@@ -42,24 +42,18 @@
                 <div class="currentPosterGrid">
                     <button class="leftArrow"></button>
                     <button class="rightArrow"></button>
-                    <div class="currentMoviePoster">
-                        <a href="/movie.php">
-                            <!-- Poster 1 -->
-                            <img class="currentPoster" src="/assets/BlackPhone-poster.jpg" alt="Black Phone poster" />
-                        </a>
-                    </div>
+                    <a href="/movie.php">
+                        <!-- Poster 1 -->
+                        <img class="currentPoster" src="/assets/BlackPhone-poster.jpg" alt="Black Phone poster" />
+                    </a>
 
-                    <div class="currentMoviePoster">
-                        <a href="/movie.php">
-                            <img class="currentPoster" src="/assets/WEAPONS-POSTER.jpg" alt="Weapons poster" />
-                        </a>
-                    </div>
+                    <a href="/movie.php">
+                        <img class="currentPoster" src="/assets/WEAPONS-POSTER.jpg" alt="Weapons poster" />
+                    </a>
 
-                    <div class="currentMoviePoster">
-                        <a href="/movie.php">
-                            <img class="currentPoster" src="/assets/freddys2-poster.jpg" alt="Freddys2 poster" />
-                        </a>
-                    </div>
+                    <a href="/movie.php">
+                        <img class="currentPoster" src="/assets/freddys2-poster.jpg" alt="Freddys2 poster" />
+                    </a>
                 </div>
 
                 <div class="currentTextGrid">
@@ -106,15 +100,10 @@
             <div class="comingGrid">
                 <button class="leftArrow"></button>
                 <button class="rightArrow"></button>
-                <div class="comingMoviePoster">
-                    <img src="" alt="" />
-                </div>
-                <div class="comingMoviePoster">
-                    <img src="" alt="" />
-                </div>
-                <div class="comingMoviePoster">
-                    <img src="" alt="" />
-                </div>
+                <!-- ÄNDRA BILDERNA!!! -->
+                <img class="comingPoster" src="/assets/freddys2-poster.jpg" alt="" />
+                <img class="comingPoster" src="/assets/freddys2-poster.jpg" alt="" />
+                <img class="comingPoster" src="/assets/freddys2-poster.jpg" alt="" />
             </div>
         </section>
 

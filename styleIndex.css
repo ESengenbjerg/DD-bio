@@ -136,17 +136,11 @@ nav {
   position: relative;
 }
 
-/* .currentMoviePoster {
-  background-color: lightblue;
-  width: 100%;
-  aspect-ratio: 3/5;
-  object-fit: cover;
-} */
-
 .currentPoster {
   aspect-ratio: 3/5;
   object-fit: cover;
   width: 100%;
+  border-radius: 10px;
 }
 
 h4 {
@@ -215,10 +209,11 @@ button.seeAllOffers {
   position: relative;
 }
 
-.comingMoviePoster {
-  background-color: lightblue;
+.comingPoster {
   width: 100%;
   aspect-ratio: 3/5;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .comingSection .leftArrow {
@@ -329,6 +324,11 @@ footer {
   .currentPosterGrid .rightArrow {
     right: -8%;
   }
+
+  .currentPoster {
+    border-radius: 20px;
+  }
+
   /* Offers Section */
 
   .offersSection {
