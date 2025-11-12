@@ -143,9 +143,9 @@
         </section>
 
         <section class="imgFromMovie">
-            <button class="leftArrow"></button>
-            <img class="imgFromMovie" src="" alt="" />
-            <button class="rightArrow"></button>
+            <button id="prev" class="leftArrow"></button>
+            <img id="slideshow" class="imgFromMovie" src="https://images.unsplash.com/photo-1762755126280-6d8a4f9d1115?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900" alt="Slideshow with images" />
+            <button id="next" class="rightArrow"></button>
         </section>
 
         <!-- Require in footer -->
@@ -153,6 +153,8 @@
         require __DIR__ . "/footer.php"; ?>
 
     </main>
+    <script src="main.js"></script>
+
 </body>
 
 </html>

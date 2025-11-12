@@ -382,7 +382,7 @@ footer {
     color: var(--primaryLightrey);
   }
 
-  /* ImgFromMovieSECTION */
+  /* ImgFromMovie SECTION w slideshow */
   img.imgFromMovie {
     width: 50vw;
   }
@@ -393,6 +393,10 @@ footer {
 
   .imgFromMovie .rightArrow {
     right: 17%;
+  }
+
+  #slideshow {
+    transition: opacity 0.5s ease;
   }
 
   /* Footer Section */
