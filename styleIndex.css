@@ -88,13 +88,15 @@ header {
 
 /* NAVBAR */
 nav {
-  width: 100vw;
+  /* width: 100vw; */
   position: sticky;
   top: 0;
   z-index: 5;
 }
 
 .navbar {
+  width: 100vw;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,7 +106,7 @@ nav {
 }
 
 .navLogo {
-  height: 4.5vh;
+  height: 5vh;
   width: auto;
   object-fit: cover;
 }
@@ -370,10 +372,14 @@ footer {
     height: 60vh;
   }
 
+  .headerLogo {
+    transform: translate(-50%, -35%);
+  }
+
   /* Navbar */
   .navLogo {
-    width: 12vw;
     height: 8vh;
+    width: auto;
   }
 
   /* Current Section */
