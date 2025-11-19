@@ -52,6 +52,20 @@ hr {
 }
 
 /* HEADER */
+
+header {
+  position: relative;
+}
+
+.headerLogo {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -35%);
+}
+
 .headerImage {
   width: 100vw;
   height: 30vh;
@@ -90,8 +104,8 @@ nav {
 }
 
 .navLogo {
-  width: 10vw;
-  height: 3vh;
+  height: 4.5vh;
+  width: auto;
   object-fit: cover;
 }
 
@@ -312,8 +326,7 @@ footer {
 }
 
 .footerLogo {
-  width: 20vw;
-  height: 5vh;
+  height: 6vh;
   object-fit: cover;
   margin-left: 5vw;
 }
@@ -436,7 +449,6 @@ footer {
   }
 
   .footerLogo {
-    width: 10vw;
-    height: 10vh;
+    height: 7vh;
   }
 }

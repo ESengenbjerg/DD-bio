@@ -12,11 +12,13 @@
     <header>
         <!-- Logo pic - CHANGE THIS! -->
         <img class="headerImage" src="https://images.unsplash.com/photo-1487174244970-cd18784bb4a4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvcnJvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=900" alt="Big logo of the cinema" />
+        <img class="headerLogo" src="/assets/TEMPORARY.png" alt="Big logo of the cinema" />
     </header>
     <nav>
         <section class="navbar">
             <a href="index.php">
-                <img class="navLogo" src="https://images.unsplash.com/photo-1762661122540-10645eafc95c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1NXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900" alt="Mini logo of the cinema" />
+                <!-- TEMPORARY LOGO PIC - CHANGE THIS!!!!! -->
+                <img class="navLogo" src="/assets/TEMPORARY.png" alt="Mini logo of the cinema" />
             </a>
             <div>
                 <p>
