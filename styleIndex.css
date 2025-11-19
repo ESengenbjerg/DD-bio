@@ -141,6 +141,12 @@ nav {
   position: absolute;
   top: 6%;
   right: 3%;
+  background-color: var(--primaryDark);
+  border: none;
+  border-radius: 10px;
+  color: var(--primaryLightrey);
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .currentPosterGrid .leftArrow {
@@ -412,7 +418,7 @@ footer {
   }
 
   .btnSeeAllMovies {
-    width: 7vw;
+    width: auto;
     height: 7vh;
     top: 7%;
     right: 0%;
