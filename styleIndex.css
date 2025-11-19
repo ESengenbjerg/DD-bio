@@ -151,11 +151,26 @@ nav {
   position: relative;
 }
 
-.currentPoster {
+.currentPosterGrid a {
+  position: relative;
+}
+
+img.currentPoster {
   aspect-ratio: 3/5;
   object-fit: cover;
   width: 100%;
   border-radius: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.bloodsplatter {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 30%);
+  z-index: 1;
 }
 
 h4 {
@@ -259,12 +274,18 @@ button.seeAllOffers {
   position: relative;
 }
 
+.comingContainer {
+  position: relative;
+}
+
 .comingPoster {
   width: 100%;
   aspect-ratio: 3/5;
   border-radius: 10px;
   object-fit: cover;
   transition: transform 0.4s ease, opacity 0.4s ease;
+  position: relative;
+  z-index: 2;
 }
 
 .comingSection .leftArrow {
