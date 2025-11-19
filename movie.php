@@ -35,23 +35,17 @@
 
     <main>
         <section class="desktopFlex">
-            <section class="moviePresentation">
-                <div class="moviePresentation">
-                    <img class="smallPoster" src="/assets/WEAPONS-POSTER.jpg" alt="movie poster" />
-                    <p class="aboutMovie">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quod ipsum eligendi culpa id aperiam optio accusantium perspiciatis laudantium aliquam vel officiis autem. Repellat ad blanditiis commodi laboriosam culpa minima, illum dolores magni laborum, dicta molestiae explicabo, aliquam necessitatibus? Iusto natus magnam ratione sit officiis dolor omnis ad quaerat ullam.</p>
-                </div>
-            </section>
 
-            <section class="factMovie">
-                <div class="factMovie">
+        <section class="factMovie">
+            <div class="factMovie">
                     <div class="factHeader">
-
+    
                         <p><strong>Length:</strong></p>
                         <p><strong>Director:</strong></p>
                         <p><strong>Age limit:</strong></p>
                         <p><strong>Actors:</strong></p>
                     </div>
-
+    
                     <div class="factText">
                         <p>115 minutes</p>
                         <p>Rune</p>
@@ -63,6 +57,14 @@
                     </div>
                 </div>
             </section>
+            
+            <section class="moviePresentation">
+                <div class="moviePresentation">
+                    <img class="smallPoster" src="/assets/WEAPONS-POSTER.jpg" alt="movie poster" />
+                    <p class="aboutMovie">When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.</p>
+                </div>
+            </section>
+
         </section>
 
         <div class="hr">
