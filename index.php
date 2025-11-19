@@ -115,13 +115,11 @@
                 </div>
 
                 <div class="comingContainer">
-
                     <img class="comingPoster" src="https://images.unsplash.com/photo-1762779943612-02464f850c54?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900" alt="" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
 
                 <div class="comingContainer">
-
                     <img class="comingPoster" src="https://images.unsplash.com/photo-1762062313553-03cc927933d4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900" alt="" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
