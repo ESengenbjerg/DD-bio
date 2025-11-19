@@ -40,6 +40,7 @@ span {
 
 button {
   background-color: var(--accentRed);
+  text-align: center;
 }
 
 .headerPoster {
@@ -163,7 +164,8 @@ p.date {
 .ticket {
   background-color: #927860;
   width: 80vw;
-  height: 12vh;
+  min-height: 145px;
+  height: 24vh;
   margin-top: 5%;
   margin-bottom: 5%;
   border-radius: 20px;
@@ -175,20 +177,32 @@ p.date {
 
 .ticketText {
   width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 20px;
+
 }
 
 .ticketText p {
   text-align: start;
   margin-top: 0;
+  font-size: 28px;
 }
 
 .ticketText span {
   background-color: var(--primaryDark);
-  padding: 5%;
+  padding: 10px;
   font-size: 0.7rem;
   border-radius: 5px;
+
 }
 
+p.startTime {
+  margin-left: -25px;
+  font-size: 20px;
+}
 .borderBox {
   width: 100%;
   height: 98%;
@@ -295,6 +309,22 @@ footer {
   margin-left: 5vw;
 }
 
+  .buyTicket {
+    padding: 10% 0;
+    width: 8vw;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.225);
+    color: var(--primaryLightrey);
+
+  }
+
+  button.buyTicket {
+    max-width: 100px;
+    min-width: 80px;
+    height: auto;
+  }
+
 /* MEDIA QUERY */
 @media screen and (width > 1020px) {
   /* General rules */
@@ -387,13 +417,10 @@ footer {
     aspect-ratio: 1/1.7;
     left: 100.2%;
   }
-
   .buyTicket {
-    padding: 2%;
-    width: 8vw;
-    border-radius: 15px;
-    color: var(--primaryLightrey);
+    padding: 5% 0;
   }
+
 
   /* ImgFromMovie SECTION w slideshow */
   img.imgFromMovie {

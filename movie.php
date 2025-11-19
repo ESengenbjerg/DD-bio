@@ -82,10 +82,12 @@
                 <div class="dotLeft"></div>
                 <div class="ticket">
                     <div class="ticketText">
-                        <p>19:00</p>
+                        <p class="startTime">19:00</p>
                         <p>Weapons</p>
-                        <span class="time">2h 8m</span>
-                        <span class="age">Age: 15</span>
+                        <div class="ticketBoxes">
+                            <span class="time">2h 8m</span>
+                            <span class="age">Age: 15</span>
+                        </div>
                     </div>
 
                     <div class="borderBox">
@@ -103,10 +105,12 @@
                 <div class="dotLeft"></div>
                 <div class="ticket">
                     <div class="ticketText">
-                        <p>21:30</p>
+                        <p class="startTime">21:30</p>
                         <p>Weapons</p>
-                        <span class="time">2h 8m</span>
-                        <span class="age">Age: 15</span>
+                        <div class="ticketBoxes">
+                            <span class="time">2h 8m</span>
+                            <span class="age">Age: 15</span>
+                        </div>
                     </div>
 
                     <div class="borderBox">
@@ -124,10 +128,12 @@
                 <div class="dotLeft"></div>
                 <div class="ticket">
                     <div class="ticketText">
-                        <p>19:00</p>
+                        <p class="startTime">19:00</p>
                         <p>Weapons</p>
-                        <span class="time">2h 8m</span>
-                        <span class="age">Age: 15</span>
+                        <div class="ticketBoxes">
+                            <span class="time">2h 8m</span>
+                            <span class="age">Age: 15</span>
+                        </div>
                     </div>
 
                     <div class="borderBox">
