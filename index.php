@@ -82,14 +82,17 @@
                 <div class="offerGrid">
                     <div class="offer">
                         <p>Free popcorn</p>
+                        <img class="popcorn" src="/assets/popcorn.png" alt="popcorn">
                     </div>
                     <div class="offer">
                         <p>2 for 1 <br> all drinks</p>
+                        <img class="sodaCups" src="/assets/sodaPng.png" alt="soda cups">
                     </div>
                 </div>
                 <!-- Vertical line https://www.w3schools.com/howto/howto_css_vertical_line.asp-->
 
                 <div class="seeAllOffers">
+                    <img class="offersIcon" src="/assets/offersIcon.png" alt="Offers icon" />
                     <button class="seeAllOffers">See all</button>
                 </div>
             </div>

@@ -163,7 +163,8 @@ h4 {
   justify-content: center;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 8%;
+  margin-bottom: 25%;
+  /* margin-bottom: 8%; */
 }
 
 .offer {
@@ -171,13 +172,46 @@ h4 {
   aspect-ratio: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.popcorn {
+  width: 80%;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.sodaCups {
+  width: 80%;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.offer p {
+  margin-top: 8px;
 }
 
 div.seeAllOffers {
   display: flex;
   justify-content: center;
   padding-bottom: 10%;
+  position: relative;
+}
+
+.offersIcon {
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  z-index: 0;
 }
 
 button.seeAllOffers {
@@ -186,6 +220,7 @@ button.seeAllOffers {
   font-size: 1.2rem;
   width: 30vw;
   height: 5vh;
+  z-index: 1;
 }
 
 /* Coming soon SECTION */
@@ -350,11 +385,12 @@ footer {
 
   .offersFlex {
     display: flex;
-    align-items: baseline;
+    align-items: center;
   }
 
   .offerGrid {
     width: 45%;
+    margin-bottom: 8%;
   }
 
   .seeAllOffers {
@@ -380,7 +416,6 @@ footer {
     margin-left: 15%;
     margin-right: 15%;
     max-width: 70vw;
-    /* width: 70vw; */
   }
 
   /* Footer Section */
