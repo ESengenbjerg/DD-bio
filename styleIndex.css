@@ -107,11 +107,11 @@ nav {
 }
 
 .navbarLeft {
-  width: 50vw;
+  width: 30vw;
 }
 
 .navbarRight {
-  width: 50vw;
+  width: 70vw;
   display: flex;
   justify-content: space-between;
   padding-left: 3%;
@@ -395,6 +395,14 @@ footer {
   .navLogo {
     height: 8vh;
     width: auto;
+  }
+
+  .navbarLeft {
+    width: 50vw;
+  }
+
+  .navbarRight {
+    width: 50vw;
   }
 
   /* Current Section */
