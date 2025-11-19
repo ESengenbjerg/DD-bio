@@ -103,6 +103,19 @@ nav {
   background-color: var(--accentRed);
   padding-left: 3%;
   padding-right: 3%;
+  /* padding-right: 20%; */
+}
+
+.navbarLeft {
+  width: 50vw;
+}
+
+.navbarRight {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .navLogo {

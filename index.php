@@ -16,20 +16,26 @@
     </header>
     <nav>
         <section class="navbar">
-            <a href="index.php">
-                <!-- TEMPORARY LOGO PIC - CHANGE THIS!!!!! -->
-                <img class="navLogo" src="/assets/TEMPORARY.png" alt="Mini logo of the cinema" />
-            </a>
-            <div>
-                <p>
-                    Current
-                </p>
+            <div class="navbarLeft">
+                <a href="index.php">
+                    <!-- TEMPORARY LOGO PIC - CHANGE THIS!!!!! -->
+                    <img class="navLogo" src="/assets/TEMPORARY.png" alt="Mini logo of the cinema" />
+                </a>
             </div>
-            <div>
-                <p>All Movies</p>
-            </div>
-            <div>
-                <p>Information</p>
+
+            <div class="navbarRight">
+
+                <div>
+                    <p>
+                        Current
+                    </p>
+                </div>
+                <div>
+                    <p>All Movies</p>
+                </div>
+                <div>
+                    <p>Information</p>
+                </div>
             </div>
             <!-- <div class="search"><img src="" alt="magnifying glass for search function" /></div> -->
         </section>
