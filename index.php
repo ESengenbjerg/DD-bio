@@ -50,40 +50,40 @@
                 <div class="currentPosterGrid">
                     <button class="leftArrow"></button>
                     <button class="rightArrow"></button>
-                    <a href="/movie.php">
-                        <!-- Poster 1 -->
-                        <img class="currentPoster" src="/assets/BlackPhone-poster.jpg" alt="Black Phone poster" />
-                        <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
-                    </a>
+                    <div class="currentPosterContainer">
+                        <a href="/movie.php">
+                            <!-- Poster 1 -->
+                            <img class="currentPoster" src="/assets/BlackPhone-poster.jpg" alt="Black Phone poster" />
+                            <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
+                        </a>
+                        <div class="currentText">
+                            <h4>Black Phone 2</h4>
+                            <p>Psychological Horror</p>
+                        </div>
+                    </div>
 
-                    <a href="/movie.php">
-                        <img class="currentPoster" src="/assets/WEAPONS-POSTER.jpg" alt="Weapons poster" />
-                        <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
-                    </a>
+                    <div class="currentPosterContainer">
+                        <a href="/movie.php">
+                            <img class="currentPoster" src="/assets/WEAPONS-POSTER.jpg" alt="Weapons poster" />
+                            <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
+                        </a>
+                        <div class="currentText">
+                            <h4>Weapons</h4>
+                            <p>Supernatural Mystery Horror</p>
+                        </div>
+                    </div>
 
-                    <a href="/movie.php">
-                        <img class="currentPoster" src="/assets/freddys2-poster.jpg" alt="Freddys2 poster" />
-                        <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
-                    </a>
+                    <div class="currentPosterContainer">
+                        <a href="/movie.php">
+                            <img class="currentPoster" src="/assets/freddys2-poster.jpg" alt="Freddys2 poster" />
+                            <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
+                        </a>
+                        <div class="currentText">
+                            <h4>Good Boy</h4>
+                            <p>Supernatural Horror</p>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="currentTextGrid">
-                    <div class="currentText">
-                        <h4>Black Phone 2</h4>
-                        <p>Psychological Horror</p>
-                    </div>
-
-                    <div class="currentText">
-                        <h4>Weapons</h4>
-                        <p>Supernatural Mystery Horror</p>
-                    </div>
-
-                    <div class="currentText">
-                        <h4>Good Boy</h4>
-                        <p>Supernatural Horror</p>
-                    </div>
-                </div>
-
             </div>
         </section>
 
@@ -143,7 +143,7 @@
                     Sign up to our newletter below!</p>
                 <label>Sign up here:</label><br>
                 <input type="email"></input>
-                <button>Sign up!</button>
+                <button class="btnSignUp">Sign up!</button>
             </div>
         </section>
 

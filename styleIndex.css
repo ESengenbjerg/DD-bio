@@ -161,15 +161,27 @@ nav {
   right: -10%;
 }
 
-.currentPosterGrid,
-.currentTextGrid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(80px, 3fr));
-  grid-template-rows: 1fr;
+.currentPosterGrid {
+  display: flex;
   gap: 30px;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
   position: relative;
+
+  /* För karusell */
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.currentPosterGrid::-webkit-scrollbar {
+  display: none;
+}
+
+.currentPosterContainer {
+  min-width: 60vw;
+  scroll-snap-align: center;
 }
 
 .currentPosterGrid a {
@@ -339,6 +351,12 @@ input {
   width: 12rem;
 }
 
+.btnSignUp {
+  color: var(--primaryLightrey);
+  border: none;
+  border-radius: 5px;
+}
+
 /* FOOTER SECTION */
 footer {
   padding-top: 2vh;
@@ -424,11 +442,25 @@ footer {
     right: 0%;
   }
 
-  .currentPosterGrid,
-  .currentTextGrid {
+  .currentPosterGrid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(80px, 3fr));
+    grid-template-rows: 1fr;
+    gap: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: visible;
+    scroll-snap-type: none;
+
     gap: 80px;
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  .currentPosterContainer {
+    min-width: 10vw;
+    width: 15vw;
+    scroll-snap-align: none;
   }
 
   .currentPosterGrid .leftArrow {
@@ -486,6 +518,15 @@ footer {
     margin-left: 15%;
     margin-right: 15%;
     max-width: 70vw;
+  }
+
+  /* Newsletter */
+
+  .btnSignUp {
+    width: 10vw;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
 
   /* Footer Section */
