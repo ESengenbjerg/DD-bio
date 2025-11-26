@@ -35,8 +35,14 @@
 
   .navLogo {
     height: 6.5vh;
-    /* width: auto;
-  object-fit: cover; */
+  }
+
+  .navbarLeft {
+    width: 40vw;
+  }
+
+  .navbarRight {
+    width: 60vw;
   }
 
   /* ----- CURRENT SECTION ----- */
@@ -185,6 +191,10 @@
 
   .navbarRight {
     width: 50vw;
+  }
+
+  .navbarRight div p {
+    font-size: 1.5rem;
   }
 
   /* Current Section */

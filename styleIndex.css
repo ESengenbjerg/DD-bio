@@ -110,11 +110,11 @@ nav {
 }
 
 .navbarLeft {
-  width: 30vw;
+  width: 20vw;
 }
 
 .navbarRight {
-  width: 70vw;
+  width: 80vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
