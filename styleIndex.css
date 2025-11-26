@@ -338,11 +338,16 @@ button.seeAllOffers {
 /* NEWSLETTER SECTION */
 
 .newsletterSection {
+  width: 100vw;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 20vh;
+}
+
+.newletterContainer {
+  width: 100%;
 }
 
 input {
@@ -355,6 +360,7 @@ input {
   color: var(--primaryLightrey);
   border: none;
   border-radius: 5px;
+  padding: 2%;
 }
 
 /* FOOTER SECTION */
@@ -371,7 +377,7 @@ footer {
 .footerBackground {
   z-index: -2;
   width: 100vw;
-  height: 72vh;
+  height: 90vh;
   object-fit: cover;
   position: absolute;
   bottom: 0;
@@ -524,9 +530,8 @@ footer {
 
   .btnSignUp {
     width: 10vw;
-    height: auto;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
   }
 
   /* Footer Section */
@@ -543,7 +548,8 @@ footer {
   }
 
   .footerBackground {
-    height: 60vh;
+    height: 50vh;
+    object-fit: fill;
   }
 
   .footerLogo {
