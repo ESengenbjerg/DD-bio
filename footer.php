@@ -1,7 +1,6 @@
 <footer>
 
     <!-- Small logo + Copyright -->
-    <img class="footerBackground" src="assets/footerBackground.png" alt="Red background on footer" />
     <div class="footerGrid">
 
         <div class="footerDiv footerAbout">

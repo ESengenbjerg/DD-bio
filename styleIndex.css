@@ -359,6 +359,15 @@ input {
 footer {
   padding-top: 2vh;
   padding-bottom: 2vh;
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+
+  /* Testkod! ----- Funkar i mobile! */
+  background-image: url("assets/footerBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
 }
 
 .footerGrid {
@@ -366,15 +375,15 @@ footer {
   text-align: center;
 }
 
-.footerBackground {
+/* .footerBackground {
   z-index: -2;
-  width: 100vw;
-  height: 90vh;
-  object-fit: cover;
+  width: 100%;
+  height: 32%;
+  object-fit: fill;
   position: absolute;
   bottom: 0;
   left: 0;
-}
+}  */
 
 .footerDiv {
   margin-bottom: 15%;

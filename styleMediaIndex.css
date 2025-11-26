@@ -115,11 +115,6 @@
     font-size: 1rem;
   }
 
-  .footerBackground {
-    height: 75vh;
-    object-fit: fill;
-  }
-
   .footerLogo {
     height: 7vh;
   }
@@ -280,13 +275,6 @@
     margin-right: 15%;
     align-items: start;
     margin-top: 5%;
-  }
-
-  .footerBackground {
-    height: 42vh;
-    height: 60vh;
-    /* height: auto; */
-    object-fit: fill;
   }
 
   .footerLogo {
