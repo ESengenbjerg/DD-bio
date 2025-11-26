@@ -93,11 +93,11 @@
             <div class="offersFlex">
                 <div class="offerGrid">
                     <div class="offer">
-                        <p>Free popcorn</p>
+                        <p class="textPopcorn">Free popcorn</p>
                         <img class="popcorn" src="/assets/popcorn.png" alt="popcorn">
                     </div>
                     <div class="offer">
-                        <p>2 for 1 <br> all drinks</p>
+                        <p class="textSoda">2 for 1 <br> all drinks</p>
                         <img class="sodaCups" src="/assets/sodaPng.png" alt="soda cups">
                     </div>
                 </div>

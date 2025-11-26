@@ -149,18 +149,6 @@ nav {
   padding-right: 3%;
 }
 
-.currentPosterGrid .leftArrow {
-  position: absolute;
-  top: 50%;
-  left: -10%;
-}
-
-.currentPosterGrid .rightArrow {
-  position: absolute;
-  top: 50%;
-  right: -10%;
-}
-
 .currentPosterGrid {
   display: flex;
   gap: 30px;
@@ -243,7 +231,7 @@ h4 {
 .popcorn {
   width: 80%;
   position: absolute;
-  bottom: 5%;
+  bottom: 8%;
   left: 50%;
   transform: translate(-50%, 0%);
 }
@@ -251,13 +239,17 @@ h4 {
 .sodaCups {
   width: 80%;
   position: absolute;
-  bottom: 5%;
+  bottom: -2%;
   left: 50%;
   transform: translate(-50%, 0%);
 }
 
-.offer p {
-  margin-top: 8px;
+.textPopcorn {
+  margin-top: 1rem;
+}
+
+.textSoda {
+  margin-top: 0.5rem;
 }
 
 div.seeAllOffers {
