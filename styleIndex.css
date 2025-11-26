@@ -88,19 +88,22 @@ header {
 
 /* NAVBAR */
 nav {
-  /* width: 100vw; */
+  width: 100vw;
+  height: 10vh;
   position: sticky;
   top: 0;
   z-index: 5;
+  background-image: url("assets/navPhone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 .navbar {
-  width: 100vw;
-  height: 10vh;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--accentRed);
   padding-left: 3%;
   padding-right: 3%;
   /* padding-right: 20%; */
@@ -114,6 +117,7 @@ nav {
   width: 70vw;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-left: 3%;
   padding-right: 3%;
 }
@@ -362,8 +366,6 @@ footer {
   width: 100vw;
   height: auto;
   overflow: hidden;
-
-  /* Testkod! ----- Funkar i mobile! */
   background-image: url("assets/footerBackground.png");
   background-size: cover;
   background-repeat: no-repeat;

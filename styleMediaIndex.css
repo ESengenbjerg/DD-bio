@@ -23,6 +23,22 @@
 
   /* ----- NAVBAR ----- */
 
+  nav {
+    height: 14vh;
+    background-image: url("assets/navDesktop.png");
+    background-size: cover;
+  }
+
+  .navbar {
+    height: 90%;
+  }
+
+  .navLogo {
+    height: 6.5vh;
+    /* width: auto;
+  object-fit: cover; */
+  }
+
   /* ----- CURRENT SECTION ----- */
   .current {
     width: 100vw;
@@ -43,7 +59,7 @@
     margin-right: 10%;
     overflow: visible;
     scroll-snap-type: none;
-    gap: 60px;
+    gap: 40px;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -118,9 +134,14 @@
   .footerLogo {
     height: 7vh;
   }
+
+  footer {
+    background-position: top center;
+  }
 }
 
-@media screen and (width > 1020px) {
+@media screen and (width > 800px) {
+  /* Testar från 1020px till mindre */
   /* General rules */
   h2,
   h4 {
@@ -146,6 +167,13 @@
   }
 
   /* Navbar */
+
+  nav {
+    height: 16vh;
+    background-size: cover;
+    background-position: bottom center;
+  }
+
   .navLogo {
     height: 8vh;
     width: auto;
@@ -176,12 +204,10 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(80px, 3fr));
     grid-template-rows: 1fr;
-    gap: 30px;
     margin-left: 10%;
     margin-right: 10%;
     overflow: visible;
     scroll-snap-type: none;
-
     gap: 80px;
     margin-left: 10%;
     margin-right: 10%;
