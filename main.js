@@ -1,4 +1,4 @@
-// SLIDESHOW ON INDEX PAGE
+// SLIDESHOW ON INDEX PAGE - Coming movies posters
 document.addEventListener("DOMContentLoaded", () => {
   // All poster URLs
   const posters = [

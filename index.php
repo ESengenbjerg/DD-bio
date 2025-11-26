@@ -48,8 +48,8 @@
                 <h2>Currently showing</h2>
                 <button class="btnSeeAllMovies">See all</button>
                 <div class="currentPosterGrid">
-                    <button class="leftArrow"></button>
-                    <button class="rightArrow"></button>
+                    <!-- <button class="leftArrow"></button>
+                    <button class="rightArrow"></button> -->
                     <div class="currentPosterContainer">
                         <a href="/movie.php">
                             <!-- Poster 1 -->
