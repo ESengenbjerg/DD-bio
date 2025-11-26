@@ -297,6 +297,13 @@
     max-width: 70vw;
   }
 
+  .comingSection .leftArrow {
+    left: -15%;
+  }
+
+  .comingSection .rightArrow {
+    right: -15%;
+  }
   /* Newsletter */
 
   .btnSignUp {

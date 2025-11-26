@@ -321,14 +321,24 @@ button.seeAllOffers {
 
 .comingSection .leftArrow {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: -10%;
+  border: none;
+  background-color: var(--accentGrey);
+}
+
+.leftArrow img,
+.rightArrow img {
+  width: 3vw;
+  aspect-ratio: 1;
 }
 
 .comingSection .rightArrow {
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: -10%;
+  border: none;
+  background-color: var(--accentGrey);
 }
 
 /* NEWSLETTER SECTION */

@@ -113,8 +113,8 @@
         <section class="comingSection">
             <h2>Coming soon...</h2>
             <div class="comingGrid">
-                <button class="leftArrow"></button>
-                <button class="rightArrow"></button>
+                <button class="leftArrow"><img src="assets/ArrowLeft.png" alt="Left arrow"></button>
+                <button class="rightArrow"><img src="assets/ArrowRight.png" alt="Right arrow"></button>
                 <!-- ÄNDRA BILDERNA!!! -->
                 <div class="comingContainer">
                     <img class="comingPoster" src="https://images.unsplash.com/photo-1762770663487-6c03bb94fe84?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900" alt="" />
