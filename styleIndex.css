@@ -283,6 +283,10 @@ button.seeAllOffers {
 
 /* Coming soon SECTION */
 
+.comingGridDesktop {
+  display: none;
+}
+
 .comingSection {
   position: relative;
   width: 100%;
