@@ -115,6 +115,7 @@
   }
 
   /* ----- Newsletter ----- */
+
   .hrLower {
     margin-bottom: 10%;
   }
@@ -297,11 +298,11 @@
     display: grid;
     /* gap: 80px; */
     gap: 60px;
-    grid-template-columns: repeat(5, minmax(150px, 3fr));
+    grid-template-columns: repeat(5, minmax(80px, 3fr));
     margin-bottom: 10%;
     margin-left: 15%;
     margin-right: 15%;
-    max-width: 70vw;
+    width: 80vw;
   }
 
   .comingContainerDesktop {
