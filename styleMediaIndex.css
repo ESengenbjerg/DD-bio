@@ -283,29 +283,43 @@
   }
 
   /* Coming soon section */
+  .comingGridMobile {
+    display: none;
+  }
+
   .comingSection {
-    width: 70vw;
+    /* width: 100vw; */
     display: flex;
     flex-direction: column;
     justify-self: center;
+    align-items: center;
   }
 
-  .comingGrid {
-    gap: 80px;
-    grid-template-columns: repeat(3, minmax(80px, 3fr));
+  .comingGridDesktop {
+    display: grid;
+    /* gap: 80px; */
+    gap: 60px;
+    grid-template-columns: repeat(5, minmax(150px, 3fr));
     margin-bottom: 10%;
     margin-left: 15%;
     margin-right: 15%;
     max-width: 70vw;
   }
 
-  .comingSection .leftArrow {
-    left: -15%;
+  .comingContainerDesktop {
+    position: relative;
   }
 
-  .comingSection .rightArrow {
-    right: -15%;
+  .comingPosterDesktop {
+    width: 100%;
+    aspect-ratio: 3/5;
+    border-radius: 10px;
+    object-fit: cover;
+    /* transition: transform 0.4s ease, opacity 0.4s ease; */
+    position: relative;
+    z-index: 2;
   }
+
   /* Newsletter */
 
   .btnSignUp {

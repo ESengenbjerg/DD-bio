@@ -294,7 +294,7 @@ button.seeAllOffers {
   margin-bottom: 10%;
 }
 
-.comingGrid {
+.comingGridMobile {
   display: grid;
   grid-template-columns: repeat(3, minmax(80px, 3fr));
   grid-template-rows: 1fr;

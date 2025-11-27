@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "https://plus.unsplash.com/premium_photo-1710846919262-0105a293c276?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900",
   ];
 
-  const comingGrid = document.querySelector(".comingGrid");
+  const comingGrid = document.querySelector(".comingGridMobile");
   const postersEls = comingGrid.querySelectorAll(".comingPoster");
   const leftArrow = comingGrid.querySelector(".leftArrow");
   const rightArrow = comingGrid.querySelector(".rightArrow");
