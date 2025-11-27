@@ -61,19 +61,14 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(100px, 3fr));
     grid-template-rows: 1fr;
-    margin-left: 10%;
-    margin-right: 10%;
     overflow: visible;
-    scroll-snap-type: none;
     gap: 40px;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100vw;
   }
 
   .currentPosterContainer {
     min-width: 10vw;
-    width: 20vw;
-    scroll-snap-align: none;
+    width: 100%;
   }
 
   .currentPoster {
@@ -203,9 +198,9 @@
 
   /* Current Section */
 
-  .current {
+  /* .current {
     width: 80vw;
-  }
+  } */
 
   .btnSeeAllMovies {
     width: auto;
@@ -218,19 +213,14 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(80px, 3fr));
     grid-template-rows: 1fr;
-    margin-left: 10%;
-    margin-right: 10%;
     overflow: visible;
-    scroll-snap-type: none;
     gap: 80px;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
   .currentPosterContainer {
-    min-width: 10vw;
-    width: 15vw;
-    scroll-snap-align: none;
+    width: 100%;
   }
 
   .currentPoster {
