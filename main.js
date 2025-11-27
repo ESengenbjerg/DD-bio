@@ -35,6 +35,39 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // initial display
   updatePosters();
+
+  // --- Touch swipe för mobilt ---
+  let touchStartX = 0;
+  let touchEndX = 0;
+  const swipeThreshold = 50; // minimalt svep-avstånd för att trigga
+
+  comingGrid.addEventListener("touchstart", (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+  });
+
+  comingGrid.addEventListener("touchmove", (e) => {
+    touchEndX = e.changedTouches[0].screenX;
+  });
+
+  comingGrid.addEventListener("touchend", () => {
+    const distance = touchEndX - touchStartX;
+
+    // svep höger → visa FÖREGÅENDE bild
+    if (distance > swipeThreshold) {
+      startIndex = (startIndex - 1 + posters.length) % posters.length;
+      updatePosters();
+    }
+
+    // svep vänster → visa NÄSTA bild
+    if (distance < -swipeThreshold) {
+      startIndex = (startIndex + 1) % posters.length;
+      updatePosters();
+    }
+
+    // nollställ
+    touchStartX = 0;
+    touchEndX = 0;
+  });
 });
 
 // SLIDESHOW ON MOVIE PAGE
