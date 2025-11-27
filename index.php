@@ -148,7 +148,7 @@
             </div>
         </section>
 
-        <div class="hr">
+        <div class="hr hrLower">
             <hr>
         </div>
 
