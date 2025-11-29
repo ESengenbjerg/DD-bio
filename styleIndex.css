@@ -274,7 +274,8 @@ div.seeAllOffers {
 .offersIcon {
   width: 50%;
   position: absolute;
-  top: 20%;
+  /* top: 20%; */
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -100%);
   z-index: 0;
@@ -285,7 +286,8 @@ button.seeAllOffers {
   color: var(--primaryLightrey);
   font-size: 1.2rem;
   width: 30vw;
-  height: 5vh;
+  height: 7vh;
+
   z-index: 1;
   border-radius: 10px;
   border: 1px solid white;
@@ -380,41 +382,7 @@ input {
   border-radius: 5px;
   padding: 2%;
 }
+
 .hrLower {
   margin-bottom: 7%;
 }
-
-/* FOOTER SECTION */
-/*
-footer {
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  width: 100vw;
-  height: auto;
-  overflow: hidden;
-  background-image: url("assets/footerBackground.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-}
-
-.footerGrid {
-  margin-top: 20%;
-  text-align: center;
-}
-
-.footerDiv {
-  margin-bottom: 15%;
-}
-
-.copyright {
-  text-align: start;
-  margin-left: 5vw;
-}
-
-.footerLogo {
-  height: 6vh;
-  object-fit: cover;
-  margin-left: 5vw;
-}
-*/
