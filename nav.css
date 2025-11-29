@@ -1,0 +1,91 @@
+/* NAVBAR */
+nav {
+  width: 100vw;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-image: url("assets/navPhone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.navbar {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.navbarLeft {
+  width: 20vw;
+}
+
+.navbarRight {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.navLogo {
+  height: 5vh;
+  width: auto;
+  object-fit: cover;
+}
+
+@media screen and (width > 450px) {
+  nav {
+    height: 14vh;
+    background-image: url("assets/navDesktop.png");
+    background-size: cover;
+  }
+
+  .navbar {
+    height: 90%;
+  }
+
+  .navLogo {
+    height: 6.5vh;
+  }
+
+  .navbarLeft {
+    width: 40vw;
+  }
+
+  .navbarRight {
+    width: 60vw;
+  }
+}
+
+@media screen and (width > 800px) {
+  /* Navbar */
+
+  nav {
+    height: 16vh;
+    background-size: cover;
+    background-position: bottom center;
+  }
+
+  .navLogo {
+    height: 8vh;
+    width: auto;
+  }
+
+  .navbarLeft {
+    width: 50vw;
+  }
+
+  .navbarRight {
+    width: 50vw;
+  }
+
+  .navbarRight div p {
+    font-size: 1.5rem;
+  }
+}

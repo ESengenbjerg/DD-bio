@@ -7,6 +7,7 @@
     <title>MOVIE-TITLE</title>
     <link rel="stylesheet" href="general.css" />
     <link rel="stylesheet" href="styleMovie.css" />
+    <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="footer.css" />
 </head>
 
@@ -15,7 +16,9 @@
         <img class="headerPoster" src="/assets/weapons-hero.png" alt="WEAPONS hero" />
     </header>
 
-    <nav>
+    <!-- Inserting navbar -->
+    <?php require "nav.php"; ?>
+    <!-- <nav>
         <section class="navbar">
             <a href="index.php">
                 <img class="navLogo" src="https://images.unsplash.com/photo-1762661122540-10645eafc95c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1NXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900" alt="Mini logo of the cinema" />
@@ -32,7 +35,7 @@
                 <p>Information</p>
             </div>
         </section>
-    </nav>
+    </nav> -->
 
     <main>
         <section class="desktopFlex">

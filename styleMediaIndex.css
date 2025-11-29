@@ -178,8 +178,8 @@
   .headerLogo {
     transform: translate(-50%, -35%);
   }
-
-  /* Navbar */
+  /* 
+  Navbar
 
   nav {
     height: 16vh;
@@ -202,7 +202,7 @@
 
   .navbarRight div p {
     font-size: 1.5rem;
-  }
+  } */
 
   /* Current Section */
 

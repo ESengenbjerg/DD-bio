@@ -64,7 +64,7 @@ hr {
 }
 
 /* NAVBAR */
-nav {
+/* nav {
   width: 100vw;
   position: sticky;
   top: 0;
@@ -94,7 +94,7 @@ nav {
   align-items: center;
   width: 100vw;
   margin: 5rem 0 4rem;
-}
+} */
 
 /* Movie presentation SECTION */
 div.moviePresentation {
@@ -393,10 +393,10 @@ button.buyTicket:hover {
   }
 
   /* Navbar */
-  .navLogo {
+  /* .navLogo {
     width: 12vw;
     height: 8vh;
-  }
+  } */
   /* 
   Movie presentation section */
   .desktopFlex {
