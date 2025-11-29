@@ -1,6 +1,5 @@
 /* MEDIA QUERY */
 @media screen and (width > 450px) {
-  /* Testar från 760 till 410 */
   /* ----- General rules ----- */
   h2,
   h4,
@@ -19,30 +18,6 @@
 
   .headerLogo {
     transform: translate(-50%, -30%);
-  }
-
-  /* ----- NAVBAR ----- */
-
-  nav {
-    height: 14vh;
-    background-image: url("assets/navDesktop.png");
-    background-size: cover;
-  }
-
-  .navbar {
-    height: 90%;
-  }
-
-  .navLogo {
-    height: 6.5vh;
-  }
-
-  .navbarLeft {
-    width: 40vw;
-  }
-
-  .navbarRight {
-    width: 60vw;
   }
 
   /* ----- CURRENT SECTION ----- */
@@ -154,7 +129,6 @@
 }
 
 @media screen and (width > 800px) {
-  /* Testar från 1020px till mindre */
   /* General rules */
   h2,
   h4 {
@@ -178,37 +152,8 @@
   .headerLogo {
     transform: translate(-50%, -35%);
   }
-  /* 
-  Navbar
 
-  nav {
-    height: 16vh;
-    background-size: cover;
-    background-position: bottom center;
-  }
-
-  .navLogo {
-    height: 8vh;
-    width: auto;
-  }
-
-  .navbarLeft {
-    width: 50vw;
-  }
-
-  .navbarRight {
-    width: 50vw;
-  }
-
-  .navbarRight div p {
-    font-size: 1.5rem;
-  } */
-
-  /* Current Section */
-
-  /* .current {
-    width: 80vw;
-  } */
+  /* Section: Currently showing */
 
   .btnSeeAllMovies {
     width: auto;

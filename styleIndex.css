@@ -46,47 +46,6 @@ header {
   }
 }
 
-/* NAVBAR
-nav {
-  width: 100vw;
-  height: 10vh;
-  position: sticky;
-  top: 0;
-  z-index: 5;
-  background-image: url("assets/navPhone.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-
-.navbar {
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 3%;
-  padding-right: 3%;
-}
-
-.navbarLeft {
-  width: 20vw;
-}
-
-.navbarRight {
-  width: 80vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 3%;
-  padding-right: 3%;
-}
-
-.navLogo {
-  height: 5vh;
-  width: auto;
-  object-fit: cover;
-} */
-
 /* Currently showing SECTION */
 
 .currentSection {
@@ -228,7 +187,6 @@ div.seeAllOffers {
 .offersIcon {
   width: 50%;
   position: absolute;
-  /* top: 20%; */
   top: 30%;
   left: 50%;
   transform: translate(-50%, -100%);
@@ -241,7 +199,6 @@ button.seeAllOffers {
   font-size: 1.2rem;
   width: 30vw;
   height: 7vh;
-
   z-index: 1;
   border-radius: 10px;
   border: 1px solid white;

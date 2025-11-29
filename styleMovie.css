@@ -1,58 +1,4 @@
-/* Color scheme: */
-
-/* :root {
-  --primaryDark: #171414;
-  --accentGrey: #1e1c1c;
-  --primaryLightrey: #e3e3e3;
-  --darkRed: #2f0000;
-  --bloodRed: #840404;
-  --accentRed: #b80000;
-  --darkOrange: #b64000;
-  --lightOrange: #db7210;
-} */
-
-/* General rules */
-/* * {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: var(--primaryDark);
-  font-family: "Balthazar", serif;
-}
-
-h1,
-h2 {
-  font-family: "Rubik Wet Paint", system-ui;
-}
-
-main {
-  position: relative;
-}
-
-h2,
-h3,
-h4,
-p,
-a,
-span {
-  color: var(--primaryLightrey);
-  text-align: center;
-} */
-
-/* THIS PROPERTY WAS COMMENTED!!!!! */
-/* h2 {
-  margin-top: 20%;
-} */
-
-/* button {
-  background-color: var(--accentRed);
-  text-align: center;
-} */
-
-/* MOVED EVERYTHING ABOVE THIS TO general.css */
-/* --------------------------------------------------- */
-
+/* Header */
 .headerPoster {
   width: 100vw;
   height: 30vh;
@@ -62,39 +8,6 @@ span {
 hr {
   width: 70vw;
 }
-
-/* NAVBAR */
-/* nav {
-  width: 100vw;
-  position: sticky;
-  top: 0;
-  z-index: 5;
-}
-
-.navbar {
-  position: sticky;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--accentRed);
-  padding-left: 3%;
-  padding-right: 3%;
-}
-
-.navLogo {
-  width: 10vw;
-  height: 3vh;
-  object-fit: cover;
-}
-
-.desktopFlex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  margin: 5rem 0 4rem;
-} */
 
 /* Movie presentation SECTION */
 div.moviePresentation {
@@ -321,7 +234,7 @@ img.imgFromMovie {
 }
 
 /* FOOTER section */
-
+/*
 footer {
   padding-top: 2vh;
   padding-bottom: 2vh;
@@ -356,7 +269,7 @@ footer {
   height: 5vh;
   object-fit: cover;
   margin-left: 5vw;
-}
+} */
 
 .buyTicket {
   padding: 10% 0;
@@ -392,13 +305,7 @@ button.buyTicket:hover {
     object-position: 20% 50%;
   }
 
-  /* Navbar */
-  /* .navLogo {
-    width: 12vw;
-    height: 8vh;
-  } */
-  /* 
-  Movie presentation section */
+  /* Movie presentation section */
   .desktopFlex {
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -486,26 +393,5 @@ button.buyTicket:hover {
 
   #slideshow {
     transition: opacity 0.5s ease;
-  }
-
-  /* Footer Section */
-  .footerGrid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(100px, 1fr));
-    grid-template-rows: 1fr;
-    gap: 80px;
-    margin-left: 15%;
-    margin-right: 15%;
-    align-items: start;
-    margin-top: 5%;
-  }
-
-  .footerBackground {
-    height: 60vh;
-  }
-
-  .footerLogo {
-    width: 10vw;
-    height: 10vh;
   }
 }
