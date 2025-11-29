@@ -18,10 +18,11 @@
 
 body {
   background-color: var(--primaryDark);
-    font-family: "Balthazar", serif;
+  font-family: "Balthazar", serif;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: "Rubik Wet Paint", system-ui;
 }
 
@@ -92,13 +93,12 @@ nav {
 }
 
 /* Movie presentation SECTION */
- div.moviePresentation {
+div.moviePresentation {
   display: flex;
   align-items: center;
   padding: 20px;
   gap: 20px;
   width: 100v;
-
 }
 
 .POSTER {
@@ -107,17 +107,16 @@ nav {
   justify-content: center;
 }
 .POSTER img {
-    object-fit: cover;
-    overflow: hidden;
-    border-radius: 15px;
-    width: 100%;
-    aspect-ratio: 3 / 4;
-    width: 100%;
-    height: 100%;
-    max-height: 399.75px;
-    max-width: 299.81px;
-
-} 
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 15px;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  width: 100%;
+  height: 100%;
+  max-height: 399.75px;
+  max-width: 299.81px;
+}
 
 /* Movie Facts SECTION */
 section.factMovie {
@@ -139,26 +138,22 @@ div.factMovie {
 .factHeader,
 .factText {
   width: 35%;
-
 }
 
 .factHeader p,
 .factText p {
   text-align: start;
-} 
-
+}
 
 .TEXT {
   align-items: center;
-    width: 50%;
-    padding: 20px;
+  width: 50%;
+  padding: 20px;
 }
 .aboutMovie {
   text-align: left;
   margin: 1rem;
 }
-
-
 
 /* Tickets section */
 
@@ -177,7 +172,6 @@ section.tickets {
   justify-content: center;
 }
 
-
 .screeningsButton {
   display: block;
   width: 120px;
@@ -185,7 +179,7 @@ section.tickets {
   background-color: var(--accentGrey);
   color: var(--primaryLightrey);
   border-radius: 20px;
-  box-shadow: 0 3px 2px rgba(0, 0,   0, 0.225);
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.225);
 }
 
 div.date {
@@ -221,7 +215,6 @@ p.date {
   flex-direction: column;
   justify-content: space-around;
   padding-left: 20px;
-
 }
 
 .ticketText p {
@@ -235,7 +228,6 @@ p.date {
   padding: 10px;
   font-size: 0.7rem;
   border-radius: 5px;
-
 }
 
 p.startTime {
@@ -322,7 +314,6 @@ img.imgFromMovie {
 .imgFromMovie button.rightArrow:hover {
   color: var(--accentRed);
   transform: scale(1.2);
-
 }
 
 /* FOOTER section */
@@ -363,26 +354,25 @@ footer {
   margin-left: 5vw;
 }
 
-  .buyTicket {
-    padding: 10% 0;
-    width: 8vw;
-    border-radius: 15px;
-    border: none;
-    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.225);
-    color: var(--primaryLightrey);
+.buyTicket {
+  padding: 10% 0;
+  width: 8vw;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.225);
+  color: var(--primaryLightrey);
+}
 
-  }
-
-  button.buyTicket {
-    max-width: 100px;
-    min-width: 80px;
-    height: auto;
-  }
-  button.buyTicket:hover {
-    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.225);
-    transform: scale(1.1);
-    transition: all ease 0.2;
-  }
+button.buyTicket {
+  max-width: 100px;
+  min-width: 80px;
+  height: auto;
+}
+button.buyTicket:hover {
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.225);
+  transform: scale(1.1);
+  transition: all ease 0.2;
+}
 
 /* MEDIA QUERY */
 @media screen and (width > 1020px) {
@@ -392,8 +382,6 @@ footer {
   .current p {
     font-size: 2rem;
   }
-
-
 
   .headerPoster {
     height: 90vh;
@@ -405,31 +393,29 @@ footer {
     width: 12vw;
     height: 8vh;
   }
-/* 
+  /* 
   Movie presentation section */
-.desktopFlex {
-
+  .desktopFlex {
     flex-direction: row-reverse;
     justify-content: space-between;
     gap: 50px;
     height: 500px;
     padding: 3rem;
-  } 
+  }
 
- section.moviePresentation {
-  height: 400px;
- }
+  section.moviePresentation {
+    height: 400px;
+  }
 
- div.moviePresentation {
-  padding: 0;
-  /* margin-left: 3rem; */
- }
+  div.moviePresentation {
+    padding: 0;
+    /* margin-left: 3rem; */
+  }
 
-.POSTER img{
-  aspect-ratio: 3/4;
-  max-height: 400px;
-}
-
+  .POSTER img {
+    aspect-ratio: 3/4;
+    max-height: 400px;
+  }
 
   p.aboutMovie {
     width: 100%;
@@ -437,14 +423,12 @@ footer {
     max-width: 300px;
   }
 
- section.factMovie {
+  section.factMovie {
     margin-right: 5%;
-}
-
-
+  }
 
   /* Ticket section */
-    .ticketsHeader {
+  .ticketsHeader {
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -454,7 +438,7 @@ footer {
   .screeningsButton {
     position: absolute;
     right: 0;
-    transform: translateX(-15vw); 
+    transform: translateX(-15vw);
   }
 
   div.date {
@@ -483,13 +467,10 @@ footer {
     padding: 5% 0;
   }
 
-
   /* ImgFromMovie SECTION w slideshow */
   img.imgFromMovie {
     width: 50vw;
   }
-
-
 
   .imgFromMovie .leftArrow {
     left: 17%;
@@ -502,7 +483,7 @@ footer {
   #slideshow {
     transition: opacity 0.5s ease;
   }
-  
+
   /* Footer Section */
   .footerGrid {
     display: grid;
@@ -523,4 +504,4 @@ footer {
     width: 10vw;
     height: 10vh;
   }
-  }
+}
