@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MOVIE-TITLE</title>
     <link rel="stylesheet" href="styleMovie.css" />
+    <link rel="stylesheet" href="footer.css" />
 </head>
 
 <body>
@@ -35,16 +36,16 @@
     <main>
         <section class="desktopFlex">
 
-        <section class="factMovie">
-            <div class="factMovie">
+            <section class="factMovie">
+                <div class="factMovie">
                     <div class="factHeader">
-    
+
                         <p><strong>Length:</strong></p>
                         <p><strong>Director:</strong></p>
                         <p><strong>Age limit:</strong></p>
                         <p><strong>Actors:</strong></p>
                     </div>
-    
+
                     <div class="factText">
                         <p>115 minutes</p>
                         <p>Rune</p>
@@ -56,16 +57,16 @@
                     </div>
                 </div>
             </section>
-            
 
-                <div class="moviePresentation">
-                    <div class="POSTER">    
-                        <img class="smallPoster" src="/assets/WEAPONS-POSTER.jpg" alt="movie poster" />
-                    </div>
-                    <div class="TEXT">
-                        <p class="aboutMovie">When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.</p>
-                    </div>
+
+            <div class="moviePresentation">
+                <div class="POSTER">
+                    <img class="smallPoster" src="/assets/WEAPONS-POSTER.jpg" alt="movie poster" />
                 </div>
+                <div class="TEXT">
+                    <p class="aboutMovie">When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.</p>
+                </div>
+            </div>
 
 
         </section>
@@ -76,7 +77,7 @@
 
         <section class="tickets">
             <div class="ticketsHeader">
-            <h2>Tickets</h2>
+                <h2>Tickets</h2>
                 <button class="screeningsButton">All Screenings</button>
             </div>
             <div class="date">
@@ -156,9 +157,10 @@
         </section>
 
         <section class="imgFromMovie">
-            <button id="prev" class="leftArrow"><</button>
-            <img id="slideshow" class="imgFromMovie" src="https://images.unsplash.com/photo-1762755126280-6d8a4f9d1115?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900" alt="Slideshow with images" />
-            <button id="next" class="rightArrow">></button>
+            <button id="prev" class="leftArrow">
+                << /button>
+                    <img id="slideshow" class="imgFromMovie" src="https://images.unsplash.com/photo-1762755126280-6d8a4f9d1115?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900" alt="Slideshow with images" />
+                    <button id="next" class="rightArrow">></button>
         </section>
 
         <!-- Require in footer -->

@@ -324,7 +324,7 @@
 
   /* Footer Section */
 
-  .footerGrid {
+  /* .footerGrid {
     display: grid;
     grid-template-columns: repeat(3, minmax(100px, 1fr));
     grid-template-rows: 1fr;
@@ -337,5 +337,5 @@
 
   .footerLogo {
     height: 7vh;
-  }
+  } */
 }
