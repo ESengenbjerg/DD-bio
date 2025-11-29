@@ -59,6 +59,20 @@ hr {
 }
 
 /* HEADER */
+
+header {
+  position: relative;
+}
+
+.headerLogo {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -35%);
+}
+
 .headerImage {
   width: 100vw;
   height: 30vh;
@@ -82,23 +96,41 @@ hr {
 /* NAVBAR */
 nav {
   width: 100vw;
+  height: 10vh;
   position: sticky;
   top: 0;
   z-index: 5;
+  background-image: url("assets/navPhone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 .navbar {
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--accentRed);
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.navbarLeft {
+  width: 20vw;
+}
+
+.navbarRight {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding-left: 3%;
   padding-right: 3%;
 }
 
 .navLogo {
-  width: 10vw;
-  height: 3vh;
+  height: 5vh;
+  width: auto;
   object-fit: cover;
 }
 
@@ -119,36 +151,57 @@ nav {
   position: absolute;
   top: 6%;
   right: 3%;
+  background-color: var(--primaryDark);
+  border: none;
+  border-radius: 10px;
+  color: var(--primaryLightrey);
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
-.currentPosterGrid .leftArrow {
-  position: absolute;
-  top: 50%;
-  left: -10%;
-}
-
-.currentPosterGrid .rightArrow {
-  position: absolute;
-  top: 50%;
-  right: -10%;
-}
-
-.currentPosterGrid,
-.currentTextGrid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(80px, 3fr));
-  grid-template-rows: 1fr;
+.currentPosterGrid {
+  display: flex;
   gap: 30px;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+
+  /* För karusell */
+  /* overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; */
+}
+
+.currentPosterGrid::-webkit-scrollbar {
+  display: none;
+}
+
+.currentPosterContainer {
+  min-width: 60vw;
+  scroll-snap-align: center;
+}
+
+.currentPosterGrid a {
   position: relative;
 }
 
-.currentPoster {
+img.currentPoster {
   aspect-ratio: 3/5;
   object-fit: cover;
   width: 100%;
   border-radius: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.bloodsplatter {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 30%);
+  z-index: 1;
 }
 
 h4 {
@@ -170,7 +223,7 @@ h4 {
   justify-content: center;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 8%;
+  margin-bottom: 25%;
 }
 
 .offer {
@@ -178,13 +231,50 @@ h4 {
   aspect-ratio: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.popcorn {
+  width: 80%;
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.sodaCups {
+  width: 80%;
+  position: absolute;
+  bottom: -2%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.textPopcorn {
+  margin-top: 1rem;
+}
+
+.textSoda {
+  margin-top: 0.5rem;
 }
 
 div.seeAllOffers {
   display: flex;
   justify-content: center;
   padding-bottom: 10%;
+  position: relative;
+}
+
+.offersIcon {
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  z-index: 0;
 }
 
 button.seeAllOffers {
@@ -193,9 +283,16 @@ button.seeAllOffers {
   font-size: 1.2rem;
   width: 30vw;
   height: 5vh;
+  z-index: 1;
+  border-radius: 10px;
+  border: 1px solid white;
 }
 
 /* Coming soon SECTION */
+
+.comingGridDesktop {
+  display: none;
+}
 
 .comingSection {
   position: relative;
@@ -206,7 +303,7 @@ button.seeAllOffers {
   margin-bottom: 10%;
 }
 
-.comingGrid {
+.comingGridMobile {
   display: grid;
   grid-template-columns: repeat(3, minmax(80px, 3fr));
   grid-template-rows: 1fr;
@@ -217,34 +314,55 @@ button.seeAllOffers {
   position: relative;
 }
 
+.comingContainer {
+  position: relative;
+}
+
 .comingPoster {
   width: 100%;
   aspect-ratio: 3/5;
   border-radius: 10px;
   object-fit: cover;
   transition: transform 0.4s ease, opacity 0.4s ease;
+  position: relative;
+  z-index: 2;
 }
 
 .comingSection .leftArrow {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: -10%;
+  border: none;
+  background-color: var(--accentGrey);
+}
+
+.leftArrow img,
+.rightArrow img {
+  width: 3vw;
+  aspect-ratio: 1;
 }
 
 .comingSection .rightArrow {
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: -10%;
+  border: none;
+  background-color: var(--accentGrey);
 }
 
 /* NEWSLETTER SECTION */
 
 .newsletterSection {
+  width: 100vw;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 20vh;
+}
+
+.newletterContainer {
+  width: 100%;
 }
 
 input {
@@ -253,25 +371,32 @@ input {
   width: 12rem;
 }
 
+.btnSignUp {
+  color: var(--primaryLightrey);
+  border: none;
+  border-radius: 5px;
+  padding: 2%;
+}
+.hrLower {
+  margin-bottom: 7%;
+}
+
 /* FOOTER SECTION */
 footer {
   padding-top: 2vh;
   padding-bottom: 2vh;
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+  background-image: url("assets/footerBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
 }
 
 .footerGrid {
   margin-top: 20%;
   text-align: center;
-}
-
-.footerBackground {
-  z-index: -2;
-  width: 100vw;
-  height: 72vh;
-  object-fit: cover;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 .footerDiv {
@@ -284,131 +409,7 @@ footer {
 }
 
 .footerLogo {
-  width: 20vw;
-  height: 5vh;
+  height: 6vh;
   object-fit: cover;
   margin-left: 5vw;
-}
-
-/* MEDIA QUERY */
-@media screen and (width > 1020px) {
-  /* General rules */
-  h2,
-  h4,
-  .current p {
-    font-size: 2rem;
-  }
-
-  h2 {
-    margin-top: 5%;
-  }
-
-  /* Header */
-  .headerImage {
-    height: 60vh;
-  }
-
-  /* Navbar */
-  .navLogo {
-    width: 12vw;
-    height: 8vh;
-  }
-
-  /* Current Section */
-
-  .current {
-    width: 80vw;
-  }
-
-  .btnSeeAllMovies {
-    width: 7vw;
-    height: 7vh;
-    top: 7%;
-    right: 0%;
-  }
-
-  .currentPosterGrid,
-  .currentTextGrid {
-    gap: 80px;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  .currentPosterGrid .leftArrow {
-    left: -8%;
-  }
-
-  .currentPosterGrid .rightArrow {
-    right: -8%;
-  }
-
-  .currentPoster {
-    border-radius: 20px;
-  }
-
-  /* Offers Section */
-
-  .offersSection {
-    width: 70vw;
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-  }
-
-  .offersFlex {
-    display: flex;
-    align-items: baseline;
-  }
-
-  .offerGrid {
-    width: 45%;
-  }
-
-  .seeAllOffers {
-    width: 45%;
-  }
-
-  button.seeAllOffers {
-    width: 10vw;
-  }
-
-  /* Coming soon section */
-  .comingSection {
-    width: 70vw;
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-  }
-
-  .comingGrid {
-    gap: 80px;
-    grid-template-columns: repeat(3, minmax(80px, 3fr));
-    margin-bottom: 10%;
-    margin-left: 15%;
-    margin-right: 15%;
-    max-width: 70vw;
-    /* width: 70vw; */
-  }
-
-  /* Footer Section */
-
-  .footerGrid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(100px, 1fr));
-    grid-template-rows: 1fr;
-    gap: 80px;
-    margin-left: 15%;
-    margin-right: 15%;
-    align-items: start;
-    margin-top: 5%;
-  }
-
-  .footerBackground {
-    height: 60vh;
-  }
-
-  .footerLogo {
-    width: 10vw;
-    height: 10vh;
-  }
 }
