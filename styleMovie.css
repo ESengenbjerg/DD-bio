@@ -85,6 +85,7 @@ nav {
 .desktopFlex {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 100vw;
   margin: 5rem 0 4rem;
@@ -96,15 +97,18 @@ nav {
   align-items: center;
   padding: 20px;
   gap: 20px;
+  width: 100v;
 
 }
 
 .POSTER {
-  object-fit: cover;
-  overflow: hidden;
   width: 50%;
+  display: flex;
+  justify-content: center;
 }
 .POSTER img {
+    object-fit: cover;
+    overflow: hidden;
     border-radius: 15px;
     width: 100%;
     aspect-ratio: 3 / 4;
@@ -151,18 +155,19 @@ div.factMovie {
 }
 .aboutMovie {
   text-align: left;
+  margin: 1rem;
 }
 
 
 
 /* Tickets section */
 
-.screeningTop {
+.ticketsHeader {
+  width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 100vw;
+  gap: 1rem;
 }
 
 section.tickets {
@@ -304,6 +309,21 @@ img.imgFromMovie {
   top: 50%;
   right: 5%;
 }
+.imgFromMovie button.leftArrow,
+.imgFromMovie button.rightArrow {
+  background-color: transparent;
+  color: var(--bloodRed);
+  font-weight: bolder;
+  font-size: 50px;
+  border: none;
+}
+
+.imgFromMovie button.leftArrow:hover,
+.imgFromMovie button.rightArrow:hover {
+  color: var(--accentRed);
+  transform: scale(1.2);
+
+}
 
 /* FOOTER section */
 
@@ -358,6 +378,11 @@ footer {
     min-width: 80px;
     height: auto;
   }
+  button.buyTicket:hover {
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.225);
+    transform: scale(1.1);
+    transition: all ease 0.2;
+  }
 
 /* MEDIA QUERY */
 @media screen and (width > 1020px) {
@@ -368,9 +393,7 @@ footer {
     font-size: 2rem;
   }
 
-  h2 {
-    margin-top: 5%;
-  }
+
 
   .headerPoster {
     height: 90vh;
@@ -399,7 +422,7 @@ footer {
 
  div.moviePresentation {
   padding: 0;
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
  }
 
 .POSTER img{
@@ -410,18 +433,29 @@ footer {
 
   p.aboutMovie {
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 30px;
     max-width: 300px;
   }
 
-  div.factMovie {
-    /* width: 100%;
-    height: 70%; */
-    /* margin: 0; */
+ section.factMovie {
+    margin-right: 5%;
+}
 
 
 
   /* Ticket section */
+    .ticketsHeader {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .screeningsButton {
+    position: absolute;
+    right: 0;
+    transform: translateX(-15vw); 
+  }
 
   div.date {
     padding-left: 20%;
@@ -455,6 +489,8 @@ footer {
     width: 50vw;
   }
 
+
+
   .imgFromMovie .leftArrow {
     left: 17%;
   }
@@ -466,7 +502,7 @@ footer {
   #slideshow {
     transition: opacity 0.5s ease;
   }
-
+  
   /* Footer Section */
   .footerGrid {
     display: grid;
@@ -487,4 +523,4 @@ footer {
     width: 10vw;
     height: 10vh;
   }
-}
+  }
