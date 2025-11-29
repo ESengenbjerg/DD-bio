@@ -8,7 +8,7 @@ nav {
   background-image: url("assets/navPhone.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: bottom center;
 }
 
 .navbar {
