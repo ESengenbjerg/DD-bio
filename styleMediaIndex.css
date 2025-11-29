@@ -78,6 +78,8 @@
   /* ----- Offers ----- */
   .offersSection {
     width: 90vw;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .offerGrid {
@@ -107,6 +109,12 @@
   button.seeAllOffers {
     height: 10vh;
     font-size: 1rem;
+  }
+
+  /* ----- Coming section ----- */
+  .comingGridMobile {
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
   /* ----- Newsletter ----- */
@@ -277,7 +285,6 @@
   }
 
   .comingSection {
-    /* width: 100vw; */
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -286,13 +293,12 @@
 
   .comingGridDesktop {
     display: grid;
-    /* gap: 80px; */
-    gap: 60px;
+    gap: 40px;
     grid-template-columns: repeat(5, minmax(80px, 3fr));
     margin-bottom: 10%;
     margin-left: 15%;
     margin-right: 15%;
-    width: 80vw;
+    width: 70vw;
   }
 
   .comingContainerDesktop {
