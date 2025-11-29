@@ -1,0 +1,50 @@
+/* Color scheme: */
+
+:root {
+  --primaryDark: #171414;
+  --accentGrey: #1e1c1c;
+  --primaryLightrey: #e3e3e3;
+  --darkRed: #2f0000;
+  --bloodRed: #840404;
+  --accentRed: #b80000;
+  --darkOrange: #b64000;
+  --lightOrange: #db7210;
+}
+
+/* General rules */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primaryDark);
+  font-family: "Balthazar", serif;
+}
+
+h1,
+h2 {
+  font-family: "Rubik Wet Paint", system-ui;
+}
+
+main {
+  position: relative;
+}
+
+h2,
+h3,
+h4,
+p,
+a,
+span {
+  color: var(--primaryLightrey);
+  text-align: center;
+}
+
+/* h2 {
+  margin-top: 20%;
+} */
+
+button {
+  background-color: var(--accentRed);
+  text-align: center;
+}

@@ -1,6 +1,6 @@
 /* Color scheme: */
 
-:root {
+/* :root {
   --primaryDark: #171414;
   --accentGrey: #1e1c1c;
   --primaryLightrey: #e3e3e3;
@@ -9,10 +9,10 @@
   --accentRed: #b80000;
   --darkOrange: #b64000;
   --lightOrange: #db7210;
-}
+} */
 
 /* General rules */
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -38,16 +38,20 @@ a,
 span {
   color: var(--primaryLightrey);
   text-align: center;
-}
+} */
 
+/* THIS PROPERTY WAS COMMENTED!!!!! */
 /* h2 {
   margin-top: 20%;
 } */
 
-button {
+/* button {
   background-color: var(--accentRed);
   text-align: center;
-}
+} */
+
+/* MOVED EVERYTHING ABOVE THIS TO general.css */
+/* --------------------------------------------------- */
 
 .headerPoster {
   width: 100vw;

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MOVIE-TITLE</title>
+    <link rel="stylesheet" href="general.css" />
     <link rel="stylesheet" href="styleMovie.css" />
     <link rel="stylesheet" href="footer.css" />
 </head>

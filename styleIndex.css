@@ -1,56 +1,7 @@
-/* Color scheme: */
-
-:root {
-  --primaryDark: #171414;
-  --accentGrey: #1e1c1c;
-  --primaryLightrey: #e3e3e3;
-  --darkRed: #2f0000;
-  --bloodRed: #840404;
-  --accentRed: #b80000;
-  --darkOrange: #b64000;
-  --lightOrange: #db7210;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: var(--primaryDark);
-  font-family: "Balthazar", serif;
-}
-
-main {
-  position: relative;
-}
-
-h1,
-h2 {
-  font-family: "Rubik Wet Paint", system-ui;
-}
-
-h2,
-h3,
-h4,
-p,
-a,
-span,
-label {
-  color: var(--primaryLightrey);
-  text-align: center;
-}
-
+/* General rules specific for this page */
 h2 {
   margin-top: 10%;
   margin-bottom: 10%;
-}
-
-button {
-  background-color: var(--accentRed);
-}
-
-header.img {
-  max-width: 100%;
 }
 
 hr {
@@ -58,6 +9,9 @@ hr {
 }
 
 /* HEADER */
+header.img {
+  max-width: 100%;
+}
 
 header {
   position: relative;
@@ -368,6 +322,11 @@ button.seeAllOffers {
 
 .newletterContainer {
   width: 100%;
+}
+
+label {
+  color: var(--primaryLightrey);
+  text-align: center;
 }
 
 input {
