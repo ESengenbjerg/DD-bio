@@ -57,7 +57,7 @@
                 </div>
             </section>
             
-            <section class="moviePresentation">
+
                 <div class="moviePresentation">
                     <div class="POSTER">    
                         <img class="smallPoster" src="/assets/WEAPONS-POSTER.jpg" alt="movie poster" />
@@ -66,7 +66,7 @@
                         <p class="aboutMovie">When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.</p>
                     </div>
                 </div>
-            </section>
+
 
         </section>
 
@@ -75,8 +75,8 @@
         </div>
 
         <section class="tickets">
+            <div class="ticketsHeader">
             <h2>Tickets</h2>
-            <div class="screeningTop">
                 <button class="screeningsButton">All Screenings</button>
             </div>
             <div class="date">
