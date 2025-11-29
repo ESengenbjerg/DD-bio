@@ -17,11 +17,18 @@
 
 body {
   background-color: var(--primaryDark);
+  font-family: "Balthazar", serif;
 }
 
 main {
   position: relative;
 }
+
+h1, h2 {
+  font-family: "Rubik Wet Paint", system-ui;
+}
+
+
 
 h2,
 h3,

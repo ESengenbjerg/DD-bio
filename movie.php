@@ -10,8 +10,7 @@
 
 <body>
     <header>
-        <!-- Movie pic - CHANGE THIS! -->
-        <img class="headerPoster" src="https://images.unsplash.com/photo-1487174244970-cd18784bb4a4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvcnJvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=900" alt="Big logo of the cinema" />
+        <img class="headerPoster" src="/assets/weapons-hero.png" alt="WEAPONS hero" />
     </header>
 
     <nav>
@@ -60,8 +59,12 @@
             
             <section class="moviePresentation">
                 <div class="moviePresentation">
-                    <img class="smallPoster" src="/assets/WEAPONS-POSTER.jpg" alt="movie poster" />
-                    <p class="aboutMovie">When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.</p>
+                    <div class="POSTER">    
+                        <img class="smallPoster" src="/assets/WEAPONS-POSTER.jpg" alt="movie poster" />
+                    </div>
+                    <div class="TEXT">
+                        <p class="aboutMovie">When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.</p>
+                    </div>
                 </div>
             </section>
 
@@ -73,7 +76,9 @@
 
         <section class="tickets">
             <h2>Tickets</h2>
-            <button class="screeningsButton">All Screenings</button>
+            <div class="screeningTop">
+                <button class="screeningsButton">All Screenings</button>
+            </div>
             <div class="date">
                 <p class="date">Wednesday 3/12</p>
             </div>
@@ -82,10 +87,12 @@
                 <div class="dotLeft"></div>
                 <div class="ticket">
                     <div class="ticketText">
-                        <p>19:00</p>
+                        <p class="startTime">19:00</p>
                         <p>Weapons</p>
-                        <span class="time">2h 8m</span>
-                        <span class="age">Age: 15</span>
+                        <div class="ticketBoxes">
+                            <span class="time">2h 8m</span>
+                            <span class="age">Age: 15</span>
+                        </div>
                     </div>
 
                     <div class="borderBox">
@@ -103,10 +110,12 @@
                 <div class="dotLeft"></div>
                 <div class="ticket">
                     <div class="ticketText">
-                        <p>21:30</p>
+                        <p class="startTime">21:30</p>
                         <p>Weapons</p>
-                        <span class="time">2h 8m</span>
-                        <span class="age">Age: 15</span>
+                        <div class="ticketBoxes">
+                            <span class="time">2h 8m</span>
+                            <span class="age">Age: 15</span>
+                        </div>
                     </div>
 
                     <div class="borderBox">
@@ -124,10 +133,12 @@
                 <div class="dotLeft"></div>
                 <div class="ticket">
                     <div class="ticketText">
-                        <p>19:00</p>
+                        <p class="startTime">19:00</p>
                         <p>Weapons</p>
-                        <span class="time">2h 8m</span>
-                        <span class="age">Age: 15</span>
+                        <div class="ticketBoxes">
+                            <span class="time">2h 8m</span>
+                            <span class="age">Age: 15</span>
+                        </div>
                     </div>
 
                     <div class="borderBox">
@@ -145,9 +156,9 @@
         </section>
 
         <section class="imgFromMovie">
-            <button id="prev" class="leftArrow"></button>
+            <button id="prev" class="leftArrow"><</button>
             <img id="slideshow" class="imgFromMovie" src="https://images.unsplash.com/photo-1762755126280-6d8a4f9d1115?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900" alt="Slideshow with images" />
-            <button id="next" class="rightArrow"></button>
+            <button id="next" class="rightArrow">></button>
         </section>
 
         <!-- Require in footer -->
