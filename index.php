@@ -44,8 +44,6 @@
                 <h2>Currently showing</h2>
                 <button class="btnSeeAllMovies">See all</button>
                 <div class="currentPosterGrid">
-                    <!-- <button class="leftArrow"></button>
-                    <button class="rightArrow"></button> -->
                     <div class="currentPosterContainer">
                         <a href="/movie.php">
                             <!-- Poster 1 -->
@@ -112,44 +110,44 @@
                 <button class="rightArrow"><img src="assets/ArrowRight.png" alt="Right arrow"></button>
                 <!-- ÄNDRA BILDERNA!!! -->
                 <div class="comingContainer">
-                    <img class="comingPoster" src="https://images.unsplash.com/photo-1762770663487-6c03bb94fe84?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900" alt="" />
+                    <img class="comingPoster" src="/assets/creepingfog.jpg" alt="Fictive movie poster" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
 
                 <div class="comingContainer">
-                    <img class="comingPoster" src="https://images.unsplash.com/photo-1762779943612-02464f850c54?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900" alt="" />
+                    <img class="comingPoster" src="/assets/echosinthedark.jpg" alt="Fictive movie poster" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
 
                 <div class="comingContainer">
-                    <img class="comingPoster" src="https://images.unsplash.com/photo-1762062313553-03cc927933d4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900" alt="" />
+                    <img class="comingPoster" src="/assets/nightmore-poster.png" alt="Fictive movie poster" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
             </div>
 
             <div class="comingGridDesktop">
                 <div class="comingContainerDesktop">
-                    <img class="comingPosterDesktop" src="https://images.unsplash.com/photo-1762770663487-6c03bb94fe84?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900" alt="" />
+                    <img class="comingPosterDesktop" src="/assets/creepingfog.jpg" alt="Fictive movie poster" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
 
                 <div class="comingContainerDesktop">
-                    <img class="comingPosterDesktop" src="https://images.unsplash.com/photo-1762779943612-02464f850c54?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900" alt="" />
+                    <img class="comingPosterDesktop" src="/assets/echosinthedark.jpg" alt="Fictive movie poster" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
 
                 <div class="comingContainerDesktop">
-                    <img class="comingPosterDesktop" src="https://images.unsplash.com/photo-1762062313553-03cc927933d4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900" alt="" />
+                    <img class="comingPosterDesktop" src="/assets/nightmore-poster.png" alt="Fictive movie poster" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
 
                 <div class="comingContainerDesktop">
-                    <img class="comingPosterDesktop" src="https://plus.unsplash.com/premium_photo-1758367455127-904475acb472?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900" alt="" />
+                    <img class="comingPosterDesktop" src="/assets/silentwoods.jpg" alt="Fictive movie poster" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
 
                 <div class="comingContainerDesktop">
-                    <img class="comingPosterDesktop" src="https://plus.unsplash.com/premium_photo-1710846919262-0105a293c276?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900" alt="" />
+                    <img class="comingPosterDesktop" src="/assets/possession-poster.png" alt="Fictive movie poster" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
             </div>
