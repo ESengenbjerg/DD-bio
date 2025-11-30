@@ -21,5 +21,8 @@
                     <p>Information</p>
                 </div>
             </div>
+
+            <!-- TEST BLOOD -->
+            <div class="blood-container"></div>
         </section>
     </nav>

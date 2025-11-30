@@ -39,6 +39,41 @@ nav {
   object-fit: cover;
 }
 
+/* -------------------------------- TEST BLOOD -------------------------------- */
+.blood-container {
+  position: absolute;
+  bottom: -80%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.blood {
+  position: absolute;
+  width: 4px;
+  height: 10px;
+  background: linear-gradient(to bottom, #b00, #300);
+  border-radius: 50%;
+  opacity: 0.9;
+  /* animation: dropAnim 1.5s linear forwards; */
+  animation: dropAnim 5s linear forwards;
+}
+
+@keyframes dropAnim {
+  0% {
+    transform: translateY(0);
+    height: 6px;
+  }
+  50% {
+    height: 25px;
+  }
+  100% {
+    transform: translateY(80px);
+    opacity: 0;
+  }
+}
+
 @media screen and (width > 450px) {
   nav {
     height: 14vh;

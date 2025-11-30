@@ -1,3 +1,31 @@
+// NAVBAR BLOOD TEST
+
+function createBloodDrop(container) {
+  const drop = document.createElement("div");
+  drop.classList.add("blood");
+
+  // slumpmässig position
+  drop.style.left = Math.random() * container.offsetWidth + "px";
+
+  // slumpmässig fördröjning
+  drop.style.animationDuration = 1 + Math.random() + "s";
+
+  container.appendChild(drop);
+
+  // ta bort droppen när den fallit klart
+  setTimeout(() => drop.remove(), 2000);
+}
+
+function startBlood(containerSelector) {
+  const container = document.querySelector(containerSelector);
+  setInterval(() => createBloodDrop(container), 400 + Math.random() * 600);
+}
+
+// Exempel: för navbar
+startBlood(".navbar .blood-container");
+
+// SLUT TEST
+
 // SLIDESHOW ON INDEX PAGE - Coming movies posters
 document.addEventListener("DOMContentLoaded", () => {
   // All poster URLs
