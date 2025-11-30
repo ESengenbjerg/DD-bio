@@ -163,7 +163,7 @@
                 <p>Want to know about offers and upcoming releases?<br>
                     Sign up to our newletter below!</p>
                 <label>Sign up here:</label><br>
-                <input type="email"></input>
+                <input type="email" placeholder="name@email.com"></input>
                 <button class="btnSignUp">Sign up!</button>
             </div>
         </section>

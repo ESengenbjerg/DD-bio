@@ -97,6 +97,10 @@
 
   /* ----- Newsletter ----- */
 
+  input {
+    margin-right: 3%;
+  }
+
   .hrLower {
     margin-bottom: 10%;
   }
@@ -338,6 +342,9 @@
   }
 
   /* Newsletter */
+  input {
+    margin-right: 2%;
+  }
 
   .btnSignUp {
     width: 10vw;
