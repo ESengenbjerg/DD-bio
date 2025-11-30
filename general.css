@@ -19,6 +19,7 @@
 body {
   background-color: var(--primaryDark);
   font-family: "Balthazar", serif;
+  margin: 0;
 }
 
 h1,

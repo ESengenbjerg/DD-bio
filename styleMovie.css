@@ -1,8 +1,21 @@
 /* Header */
-.headerPoster {
+header {
   width: 100vw;
-  height: 30vh;
-  object-fit: cover;
+  aspect-ratio: 4/2;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("assets/weapons-hero.png");
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+header h1 {
+  font-family: "Balthazar", serif;
+  font-size: 40px;
+  align-items: baseline;
+  color: var(--primaryLightrey);
+  padding-left: 3%;
 }
 
 hr {
@@ -312,14 +325,10 @@ button.buyTicket:hover {
 
 /* MEDIA QUERY 1020*/
 @media screen and (width > 1020px) {
-  /* General rules */
 
-
-  .headerPoster {
-    height: 90vh;
-    object-position: 20% 50%;
+  header h1 {
+    font-size: 70px;
   }
-
   /* Movie presentation section */
   .desktopFlex {
     flex-direction: row-reverse;
