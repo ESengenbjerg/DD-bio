@@ -80,6 +80,7 @@ div.factMovie {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
   gap: 1rem;
 }
 
@@ -88,6 +89,7 @@ section.tickets {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 30px 0 10%;
 }
 
 .screeningsButton {
@@ -97,7 +99,7 @@ section.tickets {
   border-radius: 10px;
   border: none;
   box-shadow: 0 4px 3px rgba(0, 0, 0, 0.225);
-  font-size: 18px;
+  font-size: 12px;
   padding: 12px 18px;
 }
 
@@ -149,7 +151,7 @@ p.date {
 .ticketText span {
   background-color: var(--primaryDark);
   padding: 10px;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   border-radius: 5px;
 }
 
@@ -194,9 +196,7 @@ p.startTime {
   transform: translate(-50%, -50%);
 }
 
-section.tickets {
-  margin-bottom: 10%;
-}
+
 
 /* ImgFromMovieSECTION */
 section.imgFromMovie {
@@ -356,9 +356,6 @@ button.buyTicket:hover {
     font-size: 30px;
   }
 
-  section.factMovie {
-    margin-right: 5%;
-  }
 
   /* Ticket section */
   .ticketsHeader {
@@ -372,6 +369,7 @@ button.buyTicket:hover {
     position: absolute;
     right: 0;
     transform: translateX(-15vw);
+    font-size: 18px;
   }
 
   div.date {
@@ -407,6 +405,7 @@ button.buyTicket:hover {
   }
   .buyTicket {
     padding: 5% 0;
+    font-size: 20px;
   }
 
   /* ImgFromMovie SECTION w slideshow */
