@@ -52,6 +52,10 @@ header {
   display: none;
 }
 
+.scare-content img {
+  display: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .flicker {
     display: none;

@@ -1,7 +1,10 @@
 /* MEDIA QUERY */
 @media screen and (width > 450px) {
   /* ----- General rules ----- */
-  h2,
+  h2 {
+    font-size: 2rem;
+  }
+
   h4,
   p {
     font-size: 1rem;
@@ -196,6 +199,10 @@
     100% {
       opacity: 1;
     }
+  }
+
+  .scare-content img {
+    display: block;
   }
 
   #scare-overlay {
