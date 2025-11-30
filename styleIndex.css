@@ -62,6 +62,10 @@ header {
   }
 }
 
+video {
+  display: none;
+}
+
 /* Currently showing SECTION */
 
 .currentSection {
