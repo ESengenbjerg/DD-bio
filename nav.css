@@ -56,7 +56,6 @@ nav {
   background: linear-gradient(to bottom, #b00, #300);
   border-radius: 50%;
   opacity: 0.9;
-  /* animation: dropAnim 1.5s linear forwards; */
   animation: dropAnim 5s linear forwards;
 }
 
@@ -103,6 +102,7 @@ nav {
 
   nav {
     height: 16vh;
+    background-image: url("assets/navDesktop-cropped.png");
     background-size: cover;
     background-position: bottom center;
   }

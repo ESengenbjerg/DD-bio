@@ -1,7 +1,10 @@
 /* MEDIA QUERY */
 @media screen and (width > 450px) {
   /* ----- General rules ----- */
-  h2,
+  h2 {
+    font-size: 2rem;
+  }
+
   h4,
   p {
     font-size: 1rem;
@@ -94,6 +97,10 @@
 
   /* ----- Newsletter ----- */
 
+  input {
+    margin-right: 3%;
+  }
+
   .hrLower {
     margin-bottom: 10%;
   }
@@ -109,10 +116,6 @@
     margin-right: 15%;
     align-items: start;
     margin-top: 5%;
-  }
-
-  .footerDiv h3 {
-    font-size: 1rem;
   }
 
   .footerDiv p {
@@ -198,6 +201,10 @@
     }
   }
 
+  .scare-content img {
+    display: block;
+  }
+
   #scare-overlay {
     position: fixed;
     inset: 0;
@@ -272,6 +279,8 @@
     grid-template-columns: repeat(2, minmax(150px, 1fr));
     width: 45%;
     margin-bottom: 8%;
+    width: 20vw;
+    padding-right: 20vw;
   }
 
   .textPopcorn {
@@ -284,9 +293,13 @@
     margin-top: 0.5rem;
   }
 
+  div.seeAllOffers {
+    padding-bottom: 2%;
+  }
+
   .offersIcon {
     width: 90%;
-    transform: translate(-50%, -110%);
+    transform: translate(-50%, -90%);
     top: 20%;
   }
 
@@ -335,6 +348,9 @@
   }
 
   /* Newsletter */
+  input {
+    margin-right: 2%;
+  }
 
   .btnSignUp {
     width: 10vw;

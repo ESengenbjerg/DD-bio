@@ -2,6 +2,7 @@
 h2 {
   margin-top: 10%;
   margin-bottom: 10%;
+  text-align: center;
 }
 
 hr {
@@ -48,6 +49,10 @@ header {
 
 /* Animation: Flicker button */
 .flicker {
+  display: none;
+}
+
+.scare-content img {
   display: none;
 }
 
@@ -255,7 +260,7 @@ button.seeAllOffers {
   z-index: 2;
 }
 
-.comingSection .leftArrow {
+.comingSection .leftArrowIndex {
   position: absolute;
   top: 45%;
   left: -10%;
@@ -263,13 +268,13 @@ button.seeAllOffers {
   background-color: var(--accentGrey);
 }
 
-.leftArrow img,
-.rightArrow img {
+.leftArrowIndex img,
+.rightArrowIndex img {
   width: 3vw;
   aspect-ratio: 1;
 }
 
-.comingSection .rightArrow {
+.comingSection .rightArrowIndex {
   position: absolute;
   top: 45%;
   right: -10%;
@@ -298,9 +303,11 @@ label {
 }
 
 input {
-  margin-right: 5%;
+  margin-right: 6%;
   height: 2.5rem;
   width: 12rem;
+  margin-top: 1%;
+  margin-bottom: 3%;
 }
 
 .btnSignUp {

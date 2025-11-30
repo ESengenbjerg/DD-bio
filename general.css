@@ -29,8 +29,12 @@ h2 {
 
 h2 {
   font-size: 34px;
-  font-weight:400;
+  font-weight: 400;
   color: #b80000;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 main {
@@ -60,4 +64,4 @@ button {
   h2 {
     font-size: 60px;
   }
-  }
+}
