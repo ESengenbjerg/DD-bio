@@ -67,6 +67,7 @@ header {
 .currentSection {
   width: 100vw;
   background-color: var(--accentGrey);
+  background-image: linear-gradient(to bottom, var(--primaryDark), var(--accentGrey), var(--primaryDark));
   padding-bottom: 5%;
 }
 
@@ -135,16 +136,23 @@ img.currentPoster {
 h4 {
   margin-top: 20%;
   margin-bottom: 0;
+  font-size: 25px;
 }
 
 .current h2 {
   padding-top: 5%;
 }
 
+.current p {
+  color: var( --accentRed);
+}
+
 /* OFFERS SECTION */
 
 .offersSection {
   width: 100vw;
+  background-image: url("assets/blackborder.png");
+  background-repeat: no-repeat;
 }
 
 .offerGrid {
@@ -200,6 +208,10 @@ div.seeAllOffers {
   position: relative;
 }
 
+div.seeAllOffers.hover:hover {
+  box-shadow: none;
+}
+
 .offersIcon {
   width: 50%;
   position: absolute;
@@ -229,7 +241,7 @@ button.seeAllOffers {
 .comingSection {
   position: relative;
   width: 100vw;
-  background-color: var(--accentGrey);
+  background-image: linear-gradient(to bottom, var(--primaryDark), var(--accentGrey), var(--primaryDark));
   padding-top: 2%;
   padding-bottom: 2%;
   margin-bottom: 10%;

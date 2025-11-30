@@ -82,7 +82,7 @@
         <section class="tickets">
             <div class="ticketsHeader">
                 <h2>Tickets</h2>
-                <button class="screeningsButton">All Screenings</button>
+                <button class="screeningsButton hover">All Screenings</button>
             </div>
             <div class="date">
                 <p class="date">Wednesday 3/12</p>
@@ -160,6 +160,7 @@
      More height in mobile?-->
         </section>
 
+        <h3>Photo Gallery</h3>
         <section class="imgFromMovie">
             <button id="prev" class="leftArrow"><img src="assets/ArrowLeft.png" alt="Left arrow"></button>
             <img id="slideshow" class="imgFromMovie" src="https://images.unsplash.com/photo-1762755126280-6d8a4f9d1115?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900" alt="Slideshow with images" />
