@@ -260,7 +260,7 @@ button.seeAllOffers {
   z-index: 2;
 }
 
-.comingSection .leftArrow {
+.comingSection .leftIndex {
   position: absolute;
   top: 45%;
   left: -10%;
@@ -268,13 +268,13 @@ button.seeAllOffers {
   background-color: var(--accentGrey);
 }
 
-.leftArrow img,
-.rightArrow img {
+.leftArrowIndex img,
+.rightArrowIndex img {
   width: 3vw;
   aspect-ratio: 1;
 }
 
-.comingSection .rightArrow {
+.comingSection .rightArrowIndex {
   position: absolute;
   top: 45%;
   right: -10%;

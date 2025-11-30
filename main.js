@@ -55,8 +55,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const comingGrid = document.querySelector(".comingGridMobile");
   const postersEls = comingGrid.querySelectorAll(".comingPoster");
-  const leftArrow = comingGrid.querySelector(".leftArrow");
-  const rightArrow = comingGrid.querySelector(".rightArrow");
+  const leftArrow = comingGrid.querySelector(".leftArrowIndex");
+  const rightArrow = comingGrid.querySelector(".rightArrowIndex");
 
   let startIndex = 0; // first visible poster
 

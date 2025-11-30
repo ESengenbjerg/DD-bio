@@ -106,8 +106,8 @@
         <section class="comingSection">
             <h2>Coming soon...</h2>
             <div class="comingGridMobile">
-                <button class="leftArrow"><img src="assets/ArrowLeft.png" alt="Left arrow"></button>
-                <button class="rightArrow"><img src="assets/ArrowRight.png" alt="Right arrow"></button>
+                <button class="leftArrowIndex"><img src="assets/ArrowLeft.png" alt="Left arrow"></button>
+                <button class="rightArrowIndex"><img src="assets/ArrowRight.png" alt="Right arrow"></button>
                 <!-- ÄNDRA BILDERNA!!! -->
                 <div class="comingContainer">
                     <img class="comingPoster" src="/assets/creepingfog.jpg" alt="Fictive movie poster" />
