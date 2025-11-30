@@ -15,7 +15,7 @@ div.moviePresentation {
   align-items: center;
   padding: 20px;
   gap: 20px;
-  width: 100v;
+  width: 100vw;
 }
 
 .POSTER {
@@ -49,7 +49,8 @@ div.factMovie {
   gap: 30px;
   justify-content: center;
   width: 350px;
-  margin-bottom: 2rem;
+  height: 300px;
+  margin: 40px 0;
 }
 
 .factHeader,
@@ -91,12 +92,13 @@ section.tickets {
 
 .screeningsButton {
   display: block;
-  width: 120px;
-  height: 40px;
   background-color: var(--accentGrey);
   color: var(--primaryLightrey);
-  border-radius: 20px;
-  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.225);
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.225);
+  font-size: 18px;
+  padding: 12px 18px;
 }
 
 div.date {
@@ -109,13 +111,14 @@ div.date {
 p.date {
   margin-top: 7%;
   margin-bottom: 0;
+  font-size: 20px;
 }
 
 .ticket {
-  background-color: #927860;
-  width: 80vw;
+  background-color: #836447;
+  width: 85vw;
   min-height: 145px;
-  height: 20vh;
+  height: 15vh;
   margin-top: 5%;
   margin-bottom: 5%;
   border-radius: 20px;
@@ -137,6 +140,9 @@ p.date {
 .ticketText p {
   text-align: start;
   margin-top: 0;
+
+}
+.ticketTitle {
   font-size: 28px;
 }
 
@@ -218,19 +224,22 @@ img.imgFromMovie {
   top: 50%;
   right: 5%;
 }
-.imgFromMovie button.leftArrow,
-.imgFromMovie button.rightArrow {
-  background-color: transparent;
-  color: var(--bloodRed);
-  font-weight: bolder;
-  font-size: 50px;
+
+.leftArrow,
+.rightArrow {
+  width: 3vw;
+   padding: 0;
   border: none;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.imgFromMovie button.leftArrow:hover,
-.imgFromMovie button.rightArrow:hover {
-  color: var(--accentRed);
-  transform: scale(1.2);
+.leftArrow img,
+.rightArrow img {
+  width: 3vw;
+  object-fit: contain;
 }
 
 /* FOOTER section */
@@ -281,7 +290,7 @@ footer {
 }
 
 button.buyTicket {
-  max-width: 100px;
+  max-width: 150px;
   min-width: 80px;
   height: auto;
 }
@@ -291,14 +300,20 @@ button.buyTicket:hover {
   transition: all ease 0.2;
 }
 
-/* MEDIA QUERY */
+/* MEDIA QUERY 800 */
+@media screen and (width > 800px) {
+  .ticket {
+    width: 80vw;
+    height: 25vh;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+}
+
+/* MEDIA QUERY 1020*/
 @media screen and (width > 1020px) {
   /* General rules */
-  h2,
-  h4,
-  .current p {
-    font-size: 2rem;
-  }
+
 
   .headerPoster {
     height: 90vh;
@@ -309,6 +324,8 @@ button.buyTicket:hover {
   .desktopFlex {
     flex-direction: row-reverse;
     justify-content: space-between;
+    align-items: center;
+    display: flex;
     gap: 50px;
     height: 500px;
     padding: 3rem;
@@ -323,15 +340,20 @@ button.buyTicket:hover {
     /* margin-left: 3rem; */
   }
 
+  .POSTER {
+    width: 30%;
+  }
   .POSTER img {
     aspect-ratio: 3/4;
     max-height: 400px;
   }
 
+  .TEXT {
+    max-height: 100%;
+  }
   p.aboutMovie {
     width: 100%;
     font-size: 30px;
-    max-width: 300px;
   }
 
   section.factMovie {
@@ -353,12 +375,21 @@ button.buyTicket:hover {
   }
 
   div.date {
-    padding-left: 20%;
+    padding-left: 15%;
+  }
+  p.date {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .ticketTitle {
+    font-size: 40px;
+
   }
 
   .ticket {
-    width: 60vw;
-    height: 25vh;
+    width: 70vw;
+    height: 28vh;
     margin-top: 1%;
     margin-bottom: 1%;
   }

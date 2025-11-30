@@ -26,11 +26,16 @@ h2 {
   font-family: "Rubik Wet Paint", system-ui;
 }
 
+h2 {
+  font-size: 34px;
+  font-weight:400;
+  color: #b80000;
+}
+
 main {
   position: relative;
 }
 
-h2,
 h3,
 h4,
 p,
@@ -47,4 +52,11 @@ span {
 button {
   background-color: var(--accentRed);
   text-align: center;
+  font-family: "Balthazar", serif;
 }
+
+@media screen and (width > 1020px) {
+  h2 {
+    font-size: 60px;
+  }
+  }

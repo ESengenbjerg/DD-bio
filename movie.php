@@ -93,7 +93,7 @@
                 <div class="ticket">
                     <div class="ticketText">
                         <p class="startTime">19:00</p>
-                        <p>Weapons</p>
+                        <p class="ticketTitle">Weapons</p>
                         <div class="ticketBoxes">
                             <span class="time">2h 8m</span>
                             <span class="age">Age: 15</span>
@@ -116,7 +116,7 @@
                 <div class="ticket">
                     <div class="ticketText">
                         <p class="startTime">21:30</p>
-                        <p>Weapons</p>
+                        <p class="ticketTitle">Weapons</p>
                         <div class="ticketBoxes">
                             <span class="time">2h 8m</span>
                             <span class="age">Age: 15</span>
@@ -139,7 +139,7 @@
                 <div class="ticket">
                     <div class="ticketText">
                         <p class="startTime">19:00</p>
-                        <p>Weapons</p>
+                        <p class="ticketTitle">Weapons</p>
                         <div class="ticketBoxes">
                             <span class="time">2h 8m</span>
                             <span class="age">Age: 15</span>
@@ -161,10 +161,9 @@
         </section>
 
         <section class="imgFromMovie">
-            <button id="prev" class="leftArrow">
-                < </button>
+            <button id="prev" class="leftArrow"><img src="assets/ArrowLeft.png" alt="Left arrow"></button>
                     <img id="slideshow" class="imgFromMovie" src="https://images.unsplash.com/photo-1762755126280-6d8a4f9d1115?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900" alt="Slideshow with images" />
-                    <button id="next" class="rightArrow">></button>
+                    <button id="next" class="rightArrow"><img src="assets/ArrowRight.png" alt="Right arrow"></button>
         </section>
 
         <!-- Require in footer -->
