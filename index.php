@@ -29,6 +29,14 @@
     <!-- Inserting navbar -->
     <?php require "nav.php"; ?>
 
+    <!-- Animation -->
+    <button class="flicker">Dare to try?!</button>
+
+    <div id="scare-overlay">
+        <div class="scare-content">
+            <img src="/assets/popup5.avif" alt="Scary girl" />
+        </div>
+    </div>
 
     <main>
         <section class="currentSection">

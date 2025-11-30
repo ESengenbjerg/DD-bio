@@ -153,6 +153,80 @@
     transform: translate(-50%, -35%);
   }
 
+  /* Animation: Flicker */
+  .flicker {
+    display: block;
+    background-color: var(--primaryDark);
+    color: var(--primaryLightrey);
+    text-shadow: 0 0 10px #ff0000;
+    animation: flicker 3s infinite;
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    z-index: 101;
+    border-radius: 50%;
+    border-color: var(--lightOrange);
+    width: 4.5vw;
+    aspect-ratio: 1;
+    cursor: pointer;
+  }
+
+  @keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    5% {
+      opacity: 0.2;
+    }
+    10% {
+      opacity: 1;
+    }
+    15% {
+      opacity: 0.5;
+    }
+    20% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0.3;
+    }
+    30% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  #scare-overlay {
+    position: fixed;
+    inset: 0;
+    background: black;
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.8s ease;
+    z-index: 101;
+  }
+
+  #scare-overlay .scare-content {
+    font-size: 8rem;
+    color: white;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    z-index: 101;
+  }
+
+  /* “Jumpscare” moment */
+  #scare-overlay.show .scare-content {
+    opacity: 1;
+    transform: scale(1.4);
+    z-index: 101;
+  }
+
   /* Section: Currently showing */
 
   .btnSeeAllMovies {

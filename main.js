@@ -23,6 +23,25 @@ function startBlood(containerSelector) {
 
 startBlood(".navbar .blood-container");
 
+// JUMPSCARE:
+document.querySelector(".flicker").addEventListener("click", () => {
+  const overlay = document.getElementById("scare-overlay");
+
+  // Fade to black
+  overlay.style.opacity = "1";
+
+  // After fade, flash spooky content
+  setTimeout(() => {
+    overlay.classList.add("show");
+
+    // Remove after a moment
+    setTimeout(() => {
+      overlay.classList.remove("show");
+      overlay.style.opacity = "0";
+    }, 500); // Duration of the scare moment
+  }, 4000); // Duration of fade-to-black
+});
+
 // SLIDESHOW ON INDEX PAGE - Coming movies posters
 document.addEventListener("DOMContentLoaded", () => {
   // All poster URLs

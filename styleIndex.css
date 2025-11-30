@@ -46,6 +46,17 @@ header {
   }
 }
 
+/* Animation: Flicker button */
+.flicker {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flicker {
+    display: none;
+  }
+}
+
 /* Currently showing SECTION */
 
 .currentSection {
