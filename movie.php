@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <img class="headerPoster" src="/assets/weapons-hero.png" alt="WEAPONS hero" />
+        <h1>WEAPONS</h1>
     </header>
 
     <!-- Inserting navbar -->
