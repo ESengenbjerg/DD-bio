@@ -5,7 +5,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 5;
-  background-image: url("assets/navPhone.png");
+  background-image: url("assets/navPhone-cropped.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -76,7 +76,7 @@ nav {
 @media screen and (width > 450px) {
   nav {
     height: 14vh;
-    background-image: url("assets/navDesktop.png");
+    background-image: url("assets/navDesktop-cropped.png");
     background-size: cover;
   }
 
