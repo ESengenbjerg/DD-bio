@@ -1,18 +1,18 @@
-// NAVBAR BLOOD TEST
+// ------------------ NAVBAR BLOOD DRIP ------------------
 
 function createBloodDrop(container) {
   const drop = document.createElement("div");
   drop.classList.add("blood");
 
-  // slumpmässig position
+  // Random position
   drop.style.left = Math.random() * container.offsetWidth + "px";
 
-  // slumpmässig fördröjning
+  // Random time stamps
   drop.style.animationDuration = 1 + Math.random() + "s";
 
   container.appendChild(drop);
 
-  // ta bort droppen när den fallit klart
+  // Remove drop when fallen
   setTimeout(() => drop.remove(), 2000);
 }
 
@@ -23,7 +23,7 @@ function startBlood(containerSelector) {
 
 startBlood(".navbar .blood-container");
 
-// JUMPSCARE:
+// ------------------ JUMPSCARE ------------------
 document.querySelector(".flicker").addEventListener("click", () => {
   const overlay = document.getElementById("scare-overlay");
 
@@ -42,9 +42,9 @@ document.querySelector(".flicker").addEventListener("click", () => {
   }, 4000); // Duration of fade-to-black
 });
 
-// SLIDESHOW ON INDEX PAGE - Coming movies posters
+// ------------------ SLIDESHOW ON INDEX Coming section -------------------
 document.addEventListener("DOMContentLoaded", () => {
-  // All poster URLs
+  // All posters
   const posters = [
     "/assets/creepingfog.jpg",
     "/assets/echosinthedark.jpg",
@@ -80,10 +80,10 @@ document.addEventListener("DOMContentLoaded", () => {
   // initial display
   updatePosters();
 
-  // --- Touch swipe för mobilt ---
+  // --- Touch swipe for mobile phone ---
   let touchStartX = 0;
   let touchEndX = 0;
-  const swipeThreshold = 50; // minimalt svep-avstånd för att trigga
+  const swipeThreshold = 50; // swipe distance to trigger
 
   comingGrid.addEventListener("touchstart", (e) => {
     touchStartX = e.changedTouches[0].screenX;
@@ -96,25 +96,24 @@ document.addEventListener("DOMContentLoaded", () => {
   comingGrid.addEventListener("touchend", () => {
     const distance = touchEndX - touchStartX;
 
-    // svep höger → visa FÖREGÅENDE bild
+    // swipe right - previous image
     if (distance > swipeThreshold) {
       startIndex = (startIndex - 1 + posters.length) % posters.length;
       updatePosters();
     }
 
-    // svep vänster → visa NÄSTA bild
+    // swipe left - next image
     if (distance < -swipeThreshold) {
       startIndex = (startIndex + 1) % posters.length;
       updatePosters();
     }
 
-    // nollställ
     touchStartX = 0;
     touchEndX = 0;
   });
 });
 
-// SLIDESHOW ON MOVIE PAGE
+// ------------------ SLIDESHOW ON MOVIE PAGE ------------------
 const images = [
   "https://images.unsplash.com/photo-1762755126280-6d8a4f9d1115?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900",
   "https://plus.unsplash.com/premium_photo-1692640261941-bda4bcb52e1c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw3fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900",
