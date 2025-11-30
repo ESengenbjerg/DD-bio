@@ -103,7 +103,8 @@ nav {
 
   nav {
     height: 16vh;
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: 110%;
     background-position: bottom center;
   }
 
