@@ -29,8 +29,8 @@
     <!-- Inserting navbar -->
     <?php require "nav.php"; ?>
 
-    <main>
 
+    <main>
         <section class="currentSection">
             <div class="current">
                 <h2>Currently showing</h2>

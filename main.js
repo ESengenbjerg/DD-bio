@@ -21,10 +21,7 @@ function startBlood(containerSelector) {
   setInterval(() => createBloodDrop(container), 400 + Math.random() * 600);
 }
 
-// Exempel: för navbar
 startBlood(".navbar .blood-container");
-
-// SLUT TEST
 
 // SLIDESHOW ON INDEX PAGE - Coming movies posters
 document.addEventListener("DOMContentLoaded", () => {

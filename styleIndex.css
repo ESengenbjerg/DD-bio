@@ -61,7 +61,7 @@ header {
 
 .btnSeeAllMovies {
   position: absolute;
-  top: 6%;
+  top: 10%;
   right: 3%;
   background-color: var(--primaryDark);
   border: none;
