@@ -26,6 +26,10 @@ startBlood(".navbar .blood-container");
 // ------------------ JUMPSCARE ------------------
 document.querySelector(".flicker").addEventListener("click", () => {
   const overlay = document.getElementById("scare-overlay");
+  const video = document.querySelector("video");
+
+  //Start playing video
+  video.play();
 
   // Fade to black
   overlay.style.opacity = "1";
