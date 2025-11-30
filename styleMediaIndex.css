@@ -279,6 +279,8 @@
     grid-template-columns: repeat(2, minmax(150px, 1fr));
     width: 45%;
     margin-bottom: 8%;
+    width: 20vw;
+    padding-right: 20vw;
   }
 
   .textPopcorn {
@@ -291,9 +293,13 @@
     margin-top: 0.5rem;
   }
 
+  div.seeAllOffers {
+    padding-bottom: 2%;
+  }
+
   .offersIcon {
     width: 90%;
-    transform: translate(-50%, -110%);
+    transform: translate(-50%, -90%);
     top: 20%;
   }
 
