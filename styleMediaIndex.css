@@ -50,11 +50,9 @@
   }
 
   /* ----- Offers ----- */
-  .offersSection {
-    width: 90vw;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
+    /* .offersSection {
+      width: 100vw;
+    } */
 
   .offerGrid {
     display: grid;
@@ -260,7 +258,7 @@
   /* Offers Section */
 
   .offersSection {
-    width: 70vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -269,6 +267,7 @@
   .offersFlex {
     display: flex;
     align-items: center;
+    padding: 0 10% 5%;
   }
 
   .offerGrid {
@@ -277,6 +276,10 @@
     margin-bottom: 8%;
     width: 20vw;
     padding-right: 20vw;
+  }
+
+  .offerH2 {
+    padding-top: 2%;
   }
 
   .textPopcorn {

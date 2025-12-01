@@ -91,7 +91,7 @@
         </section>
 
         <section class="offersSection">
-            <h2>Offers</h2>
+            <h2 class="offerH2">Offers</h2>
             <div class="offersFlex">
                 <div class="offerGrid">
                     <div class="offer hover">

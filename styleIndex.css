@@ -157,6 +157,7 @@ h4 {
   width: 100vw;
   background-image: url("assets/blackborder.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .offerGrid {
@@ -179,6 +180,10 @@ h4 {
   position: relative;
   border-radius: 20px;
   border: 1px solid white;
+}
+
+.offerH2 {
+  padding-top: 10%;
 }
 
 .popcorn {
@@ -208,7 +213,7 @@ h4 {
 div.seeAllOffers {
   display: flex;
   justify-content: center;
-  padding-bottom: 10%;
+  padding-bottom: 15%;
   position: relative;
 }
 
