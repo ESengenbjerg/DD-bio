@@ -1,7 +1,7 @@
 /* NAVBAR */
 nav {
   width: 100vw;
-  height: 10vh;
+  height: 8vh;
   position: sticky;
   top: 0;
   z-index: 5;
@@ -75,7 +75,7 @@ nav {
 
 @media screen and (width > 450px) {
   nav {
-    height: 14vh;
+    height: 10vh;
     background-image: url("assets/navDesktop-cropped.png");
     background-size: cover;
   }
@@ -101,7 +101,7 @@ nav {
   /* Navbar */
 
   nav {
-    height: 16vh;
+    height: 12vh;
     background-image: url("assets/navDesktop-cropped.png");
     background-size: cover;
     background-position: bottom center;

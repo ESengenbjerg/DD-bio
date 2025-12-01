@@ -49,7 +49,7 @@
                 <button class="btnSeeAllMovies hover">See all</button>
                 <div class="currentPosterGrid">
                     <div class="currentPosterContainer">
-                        <div class="hover">
+                        <div class="shadow hover lightHover">
                             <a href="/movie.php">
                                 <img class="currentPoster" src="/assets/BlackPhone-poster.jpg" alt="Black Phone poster" />
                                 <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
@@ -62,7 +62,7 @@
                     </div>
 
                     <div class="currentPosterContainer">
-                        <div class="hover">
+                        <div class="shadow hover lightHover">
                             <a href="/movie.php">
                                 <img class="currentPoster" src="/assets/WEAPONS-POSTER.jpg" alt="Weapons poster" />
                                 <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
@@ -75,7 +75,7 @@
                     </div>
 
                     <div class="currentPosterContainer">
-                        <div class="hover">
+                        <div class="shadow hover lightHover">
                             <a href="/movie.php">
                                 <img class="currentPoster" src="/assets/freddys2-poster.jpg" alt="Freddys2 poster" />
                                 <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
@@ -137,27 +137,27 @@
             </div>
 
             <div class="comingGridDesktop">
-                <div class="comingContainerDesktop hover">
+                <div class="comingContainerDesktop shadow hover lightHover">
                     <img class="comingPosterDesktop" src="/assets/creepingfog.jpg" alt="Fictive movie poster" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
 
-                <div class="comingContainerDesktop hover">
+                <div class="comingContainerDesktop shadow hover lightHover">
                     <img class="comingPosterDesktop" src="/assets/echosinthedark.jpg" alt="Fictive movie poster" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
 
-                <div class="comingContainerDesktop hover">
+                <div class="comingContainerDesktop shadow hover lightHover">
                     <img class="comingPosterDesktop" src="/assets/nightmore-poster.png" alt="Fictive movie poster" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
 
-                <div class="comingContainerDesktop hover">
+                <div class="comingContainerDesktop shadow hover lightHover">
                     <img class="comingPosterDesktop" src="/assets/silentwoods.jpg" alt="Fictive movie poster" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
 
-                <div class="comingContainerDesktop hover">
+                <div class="comingContainerDesktop shadow hover lightHover">
                     <img class="comingPosterDesktop" src="/assets/possession-poster.png" alt="Fictive movie poster" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
