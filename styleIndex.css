@@ -241,9 +241,9 @@ button.seeAllOffers {
 
 .comingGridMobile {
   display: grid;
-  grid-template-columns: repeat(3, minmax(60px, 3fr));
+  grid-template-columns: repeat(2, minmax(60px, 3fr));
   grid-template-rows: 1fr;
-  gap: 30px;
+  gap: 0 30px;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 20%;
@@ -266,7 +266,7 @@ button.seeAllOffers {
 
 .comingSection .leftArrowIndex {
   position: absolute;
-  top: 45%;
+  top: 37%;
   left: -10%;
   border: none;
   background-color: var(--accentGrey);
@@ -280,7 +280,7 @@ button.seeAllOffers {
 
 .comingSection .rightArrowIndex {
   position: absolute;
-  top: 45%;
+  top: 37%;
   right: -10%;
   border: none;
   background-color: var(--accentGrey);

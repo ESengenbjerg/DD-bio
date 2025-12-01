@@ -122,10 +122,12 @@
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
 
-                <div class="comingContainer">
+                <p>The Creeping Fog</p>
+                <p>Echoes in the Dark</p>
+                <!-- <div class="comingContainer">
                     <img class="comingPoster" src="/assets/nightmore-poster.png" alt="Fictive movie poster" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
-                </div>
+                </div> -->
             </div>
 
             <div class="comingGridDesktop">
