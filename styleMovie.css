@@ -64,6 +64,7 @@ div.factMovie {
   width: 350px;
   height: 300px;
   margin: 40px 0;
+box-shadow: -1px 0px 6px 4px rgba(0, 0, 0, 0.48) inset;
 }
 
 .factHeader,

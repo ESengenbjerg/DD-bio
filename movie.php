@@ -201,6 +201,31 @@ document
 document
   .getElementById("prev")
   .addEventListener("click", () => showImage(index - 1));
+
+  // ------------------ NAVBAR BLOOD DRIP ------------------
+
+function createBloodDrop(container) {
+  const drop = document.createElement("div");
+  drop.classList.add("blood");
+
+  // Random position
+  drop.style.left = Math.random() * container.offsetWidth + "px";
+
+  // Random time stamps
+  drop.style.animationDuration = 1 + Math.random() + "s";
+
+  container.appendChild(drop);
+
+  // Remove drop when fallen
+  setTimeout(() => drop.remove(), 2000);
+}
+
+function startBlood(containerSelector) {
+  const container = document.querySelector(containerSelector);
+  setInterval(() => createBloodDrop(container), 400 + Math.random() * 600);
+}
+
+startBlood(".navbar .blood-container");
     </script>
 
 </body>
