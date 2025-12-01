@@ -267,19 +267,24 @@
   .offersFlex {
     display: flex;
     align-items: center;
-    padding: 0 10% 5%;
+    padding: 0 10% 3%;
   }
 
   .offerGrid {
     grid-template-columns: repeat(2, minmax(150px, 1fr));
     width: 45%;
-    margin-bottom: 8%;
+    margin-bottom: 10%;
     width: 20vw;
     padding-right: 20vw;
+    gap: 6rem;
   }
 
   .offerH2 {
     padding-top: 2%;
+  }
+
+  .offer {
+    width: 209px;
   }
 
   .textPopcorn {
