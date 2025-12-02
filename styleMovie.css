@@ -26,7 +26,7 @@ hr {
 div.moviePresentation {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 20px 40px;
   gap: 20px;
   width: 100vw;
 }
@@ -46,6 +46,7 @@ div.moviePresentation {
   height: 100%;
   max-height: 399.75px;
   max-width: 299.81px;
+
 }
 
 /* Movie Facts SECTION */
@@ -80,11 +81,11 @@ box-shadow: -1px 0px 6px 4px rgba(0, 0, 0, 0.48) inset;
 .TEXT {
   align-items: center;
   width: 50%;
-  padding: 20px;
+  padding: 20px 0 20px 20px;
 }
 .aboutMovie {
   text-align: left;
-  margin: 1rem;
+  line-height: 1.5;
 }
 
 /* Tickets section */
@@ -224,6 +225,7 @@ img.imgFromMovie {
   background-color: grey;
   width: 70vw;
   aspect-ratio: 16/9;
+  border-radius: 20px;
 }
 
 .imgFromMovie .leftArrow {
@@ -257,6 +259,8 @@ img.imgFromMovie {
 h3 {
   font-size: 20px;
 }
+
+
 /* FOOTER section */
 /*
 footer {
@@ -315,6 +319,31 @@ button.buyTicket:hover {
   transition: all ease 0.2;
 }
 
+.underImages {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+
+  margin-bottom: 8%;
+}
+
+.photo {
+  width: 10vw;
+  aspect-ratio: 4/3;
+  background-color: var(--accentGrey);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.underImages img {
+  width: 10vw;
+aspect-ratio: 4/3;
+border-radius: 10px;
+}
+
 /* MEDIA QUERY 800 */
 @media screen and (width > 800px) {
   .ticket {
@@ -340,6 +369,7 @@ button.buyTicket:hover {
     gap: 50px;
     height: 500px;
     padding: 3rem;
+    margin: 0 5%;
   }
 
   section.moviePresentation {
@@ -352,22 +382,29 @@ button.buyTicket:hover {
   }
 
   .POSTER {
-    width: 30%;
+    min-width: 40%;
   }
   .POSTER img {
     aspect-ratio: 3/4;
     max-height: 400px;
+    min-width: 189.9px;
+    min-height: 253.2px;
   }
 
   .TEXT {
     max-height: 100%;
+    width: 100%;
   }
   p.aboutMovie {
-    width: 100%;
-    font-size: 30px;
+    width: auto;
+    font-size: 25px;
+    margin-left: 10px;
+    max-width: 320px;
   }
 
-
+  .underImages {
+    display: flex;
+  }
   /* Ticket section */
   .ticketsHeader {
     flex-direction: row;
@@ -419,6 +456,10 @@ button.buyTicket:hover {
   }
 
   /* ImgFromMovie SECTION w slideshow */
+ section.imgFromMovie {
+  margin-bottom: 2%;
+ }
+
   img.imgFromMovie {
     width: 50vw;
   }
