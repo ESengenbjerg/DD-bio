@@ -26,7 +26,7 @@ hr {
 div.moviePresentation {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 20px 40px;
   gap: 20px;
   width: 100vw;
 }
@@ -46,8 +46,7 @@ div.moviePresentation {
   height: 100%;
   max-height: 399.75px;
   max-width: 299.81px;
-  min-width: 189.9px;
-  min-height: 253.2px;
+
 }
 
 /* Movie Facts SECTION */
@@ -82,11 +81,11 @@ box-shadow: -1px 0px 6px 4px rgba(0, 0, 0, 0.48) inset;
 .TEXT {
   align-items: center;
   width: 50%;
-  padding: 20px;
+  padding: 20px 0 20px 20px;
 }
 .aboutMovie {
   text-align: left;
-  margin: 1rem;
+  line-height: 1.5;
 }
 
 /* Tickets section */
@@ -370,6 +369,7 @@ border-radius: 10px;
     gap: 50px;
     height: 500px;
     padding: 3rem;
+    margin: 0 5%;
   }
 
   section.moviePresentation {
@@ -382,19 +382,24 @@ border-radius: 10px;
   }
 
   .POSTER {
-    width: 30%;
+    min-width: 40%;
   }
   .POSTER img {
     aspect-ratio: 3/4;
     max-height: 400px;
+    min-width: 189.9px;
+    min-height: 253.2px;
   }
 
   .TEXT {
     max-height: 100%;
+    width: 100%;
   }
   p.aboutMovie {
-    width: 100%;
+    width: auto;
     font-size: 25px;
+    margin-left: 10px;
+    max-width: 320px;
   }
 
   .underImages {
