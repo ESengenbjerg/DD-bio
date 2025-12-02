@@ -21,8 +21,8 @@
 
 <body>
     <header>
-        <img class="headerImage" src="https://images.unsplash.com/photo-1487174244970-cd18784bb4a4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvcnJvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=900" alt="Big logo of the cinema" />
-        <img class="headerLogo" src="/assets/TEMPORARY.png" alt="Big logo of the cinema" />
+        <img class="headerImage" src="assets/hero1.gif" alt="Big logo of the cinema" />
+        <img class="headerLogo" src="/assets/LOGO.svg" alt="Big logo of the cinema" />
     </header>
 
     <!-- Inserting navbar -->
@@ -51,12 +51,12 @@
                     <div class="currentPosterContainer">
                         <div class="shadow hover lightHover">
                             <a href="/movie.php">
-                                <img class="currentPoster" src="/assets/BlackPhone-poster.jpg" alt="Black Phone poster" />
+                                <img class="currentPoster" src="/assets/skinamarink.jpg" alt="Black Phone poster" />
                                 <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                             </a>
                         </div>
                         <div class="currentText">
-                            <h4>Black Phone 2</h4>
+                            <h4>Skinamarink</h4>
                             <p>Psychological Horror</p>
                         </div>
                     </div>
@@ -77,7 +77,7 @@
                     <div class="currentPosterContainer">
                         <div class="shadow hover lightHover">
                             <a href="/movie.php">
-                                <img class="currentPoster" src="/assets/freddys2-poster.jpg" alt="Freddys2 poster" />
+                                <img class="currentPoster" src="/assets/goodboy.jpg" alt="Freddys2 poster" />
                                 <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                             </a>
                         </div>

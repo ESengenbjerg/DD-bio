@@ -163,10 +163,17 @@
         <h3>Photo Gallery</h3>
         <section class="imgFromMovie">
             <button id="prev" class="leftArrow"><img src="assets/ArrowLeft.png" alt="Left arrow"></button>
-            <img id="slideshow" class="imgFromMovie" src="https://images.unsplash.com/photo-1762755126280-6d8a4f9d1115?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900" alt="Slideshow with images" />
+            <img id="slideshow" class="imgFromMovie" src="assets/weapon.jpg" alt="Slideshow with images" />
             <button id="next" class="rightArrow"><img src="assets/ArrowRight.png" alt="Right arrow"></button>
-        </section>
 
+        </section>
+        <div class="underImages">
+            <img src="assets/we.jpg" alt="movie poster">
+            <img src="assets/wep.jpg" alt="movie poster">
+            <img src="assets/weap.jpg" alt="movie poster">
+            <div class="photo"> <span> 99+ PHOTOS</span></div>
+        </div>
+        
         <!-- Require in footer -->
         <?php
         require __DIR__ . "/footer.php"; ?>
@@ -177,10 +184,10 @@
     <script>
 //         // ------------------ SLIDESHOW ON MOVIE PAGE ------------------
 const images = [
-  "https://images.unsplash.com/photo-1762755126280-6d8a4f9d1115?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900",
-  "https://plus.unsplash.com/premium_photo-1692640261941-bda4bcb52e1c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw3fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900",
-  "https://images.unsplash.com/photo-1762793986911-9451716ac161?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900",
-  "https://images.unsplash.com/photo-1757330878545-23961934f9ed?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900",
+  "assets/we.jpg",
+  "assets/wep.jpg",
+  "assets/weap.jpg",
+  "assets/w.jpg",
 ];
 let index = 0;
 const imgElement = document.getElementById("slideshow");
