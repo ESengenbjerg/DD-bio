@@ -130,10 +130,6 @@
 
                 <p>The Creeping Fog</p>
                 <p>Echoes in the Dark</p>
-                <!-- <div class="comingContainer">
-                    <img class="comingPoster" src="/assets/nightmore-poster.png" alt="Fictive movie poster" />
-                    <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
-                </div> -->
             </div>
 
             <div class="comingGridDesktop">
@@ -161,6 +157,12 @@
                     <img class="comingPosterDesktop" src="/assets/possession-poster.png" alt="Fictive movie poster" />
                     <img class="bloodsplatter" src="/assets/bloodsplatter.png" alt="bloodsplatter" />
                 </div>
+
+                <p>The Creeping Fog</p>
+                <p>Echoes in the Dark</p>
+                <p>The Nightmare</p>
+                <p>The Silent Woods</p>
+                <p>The Possession</p>
             </div>
         </section>
 
