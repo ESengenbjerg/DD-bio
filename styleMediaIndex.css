@@ -1,11 +1,7 @@
 /* MEDIA QUERY */
 @media screen and (width > 450px) {
   /* ----- General rules ----- */
-  h2 {
-    font-size: 2rem;
-  }
 
-  h4,
   p {
     font-size: 1rem;
   }
@@ -55,11 +51,9 @@
   }
 
   /* ----- Offers ----- */
-  .offersSection {
-    width: 90vw;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
+    /* .offersSection {
+      width: 100vw;
+    } */
 
   .offerGrid {
     display: grid;
@@ -135,14 +129,13 @@
 
 @media screen and (width > 800px) {
   /* General rules */
-  h2,
   h4 {
-    font-size: 2rem;
+    font-size: 40px;
   }
 
-  .current h4,
+
   .current p {
-    font-size: 1rem;
+    font-size: 22px;
   }
 
   h2 {
@@ -267,7 +260,7 @@
   /* Offers Section */
 
   .offersSection {
-    width: 70vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -276,14 +269,24 @@
   .offersFlex {
     display: flex;
     align-items: center;
+    padding: 0 10% 3%;
   }
 
   .offerGrid {
     grid-template-columns: repeat(2, minmax(150px, 1fr));
     width: 45%;
-    margin-bottom: 8%;
+    margin-bottom: 10%;
     width: 20vw;
     padding-right: 20vw;
+    gap: 6rem;
+  }
+
+  .offerH2 {
+    padding-top: 2%;
+  }
+
+  .offer {
+    width: 209px;
   }
 
   .textPopcorn {

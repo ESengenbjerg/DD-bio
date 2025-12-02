@@ -64,6 +64,7 @@ div.factMovie {
   width: 350px;
   height: 300px;
   margin: 40px 0;
+box-shadow: -1px 0px 6px 4px rgba(0, 0, 0, 0.48) inset;
 }
 
 .factHeader,
@@ -93,7 +94,7 @@ div.factMovie {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   gap: 1rem;
 }
 
@@ -216,8 +217,7 @@ section.imgFromMovie {
   display: flex;
   justify-content: center;
   position: relative;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: 5% 0 10%;
 }
 
 img.imgFromMovie {
@@ -254,7 +254,9 @@ img.imgFromMovie {
   width: 3vw;
   object-fit: contain;
 }
-
+h3 {
+  font-size: 20px;
+}
 /* FOOTER section */
 /*
 footer {
@@ -376,8 +378,7 @@ button.buyTicket:hover {
 
   .screeningsButton {
     position: absolute;
-    right: 0;
-    transform: translateX(-15vw);
+    right: 15%;
     font-size: 18px;
   }
 
@@ -433,4 +434,8 @@ button.buyTicket:hover {
   #slideshow {
     transition: opacity 0.5s ease;
   }
+
+  h3 {
+  font-size: 30px;
+}
 }

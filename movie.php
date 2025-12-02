@@ -82,7 +82,7 @@
         <section class="tickets">
             <div class="ticketsHeader">
                 <h2>Tickets</h2>
-                <button class="screeningsButton">All Screenings</button>
+                <button class="screeningsButton hover">All Screenings</button>
             </div>
             <div class="date">
                 <p class="date">Wednesday 3/12</p>
@@ -160,6 +160,7 @@
      More height in mobile?-->
         </section>
 
+        <h3>Photo Gallery</h3>
         <section class="imgFromMovie">
             <button id="prev" class="leftArrow"><img src="assets/ArrowLeft.png" alt="Left arrow"></button>
             <img id="slideshow" class="imgFromMovie" src="https://images.unsplash.com/photo-1762755126280-6d8a4f9d1115?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900" alt="Slideshow with images" />
@@ -171,7 +172,61 @@
         require __DIR__ . "/footer.php"; ?>
 
     </main>
-    <script src="main.js"></script>
+
+
+    <script>
+//         // ------------------ SLIDESHOW ON MOVIE PAGE ------------------
+const images = [
+  "https://images.unsplash.com/photo-1762755126280-6d8a4f9d1115?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900",
+  "https://plus.unsplash.com/premium_photo-1692640261941-bda4bcb52e1c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw3fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900",
+  "https://images.unsplash.com/photo-1762793986911-9451716ac161?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=900",
+  "https://images.unsplash.com/photo-1757330878545-23961934f9ed?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900",
+];
+let index = 0;
+const imgElement = document.getElementById("slideshow");
+
+function showImage(newIndex) {
+  imgElement.style.opacity = 0;
+  setTimeout(() => {
+    index = (newIndex + images.length) % images.length; // wrap around both directions
+    imgElement.src = images[index];
+    imgElement.style.opacity = 1;
+  }, 500);
+}
+
+// Manual controls
+document
+  .getElementById("next")
+  .addEventListener("click", () => showImage(index + 1));
+document
+  .getElementById("prev")
+  .addEventListener("click", () => showImage(index - 1));
+
+  // ------------------ NAVBAR BLOOD DRIP ------------------
+
+function createBloodDrop(container) {
+  const drop = document.createElement("div");
+  drop.classList.add("blood");
+
+  // Random position
+  drop.style.left = Math.random() * container.offsetWidth + "px";
+
+  // Random time stamps
+  drop.style.animationDuration = 1 + Math.random() + "s";
+
+  container.appendChild(drop);
+
+  // Remove drop when fallen
+  setTimeout(() => drop.remove(), 2000);
+}
+
+function startBlood(containerSelector) {
+  const container = document.querySelector(containerSelector);
+  setInterval(() => createBloodDrop(container), 400 + Math.random() * 600);
+}
+
+startBlood(".navbar .blood-container");
+    </script>
 
 </body>
 

@@ -70,6 +70,7 @@ video {
 .currentSection {
   width: 100vw;
   background-color: var(--accentGrey);
+  background-image: linear-gradient(to bottom, var(--primaryDark), var(--accentGrey), var(--primaryDark));
   padding-bottom: 5%;
 }
 
@@ -138,16 +139,24 @@ img.currentPoster {
 h4 {
   margin-top: 20%;
   margin-bottom: 0;
+  font-size: 25px;
 }
 
 .current h2 {
   padding-top: 5%;
 }
 
+.current p {
+  color: var( --accentRed);
+}
+
 /* OFFERS SECTION */
 
 .offersSection {
   width: 100vw;
+  background-image: url("assets/blackborder.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .offerGrid {
@@ -170,6 +179,10 @@ h4 {
   position: relative;
   border-radius: 20px;
   border: 1px solid white;
+}
+
+.offerH2 {
+  padding-top: 10%;
 }
 
 .popcorn {
@@ -199,8 +212,12 @@ h4 {
 div.seeAllOffers {
   display: flex;
   justify-content: center;
-  padding-bottom: 10%;
+  padding-bottom: 15%;
   position: relative;
+}
+
+div.seeAllOffers.hover:hover {
+  box-shadow: none;
 }
 
 .offersIcon {
@@ -232,7 +249,7 @@ button.seeAllOffers {
 .comingSection {
   position: relative;
   width: 100vw;
-  background-color: var(--accentGrey);
+  background-image: linear-gradient(to bottom, var(--primaryDark), var(--accentGrey), var(--primaryDark));
   padding-top: 2%;
   padding-bottom: 2%;
   margin-bottom: 10%;

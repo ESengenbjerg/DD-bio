@@ -59,8 +59,20 @@ button {
   text-align: center;
   font-family: "Balthazar", serif;
 }
+  .hover:hover {
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.225);
+  transform: scale(1.1);
+  transition: all ease 0.3s;
+  }
 
-@media screen and (width > 1020px) {
+  .lightHover:hover{
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 7px 30px rgba(166,173,201,.2);
+  }
+
+  .shadow {
+    border-radius: 10px;
+  }
+@media screen and (width > 800px) {
   h2 {
     font-size: 60px;
   }
