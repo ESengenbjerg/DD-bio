@@ -17,7 +17,8 @@
 
   .headerLogo {
     top: 45%;
-    left: 45%;
+    /* left: 45%; */
+    left: 49%;
   }
 
   /* ----- CURRENT SECTION ----- */
@@ -148,7 +149,8 @@
 
   .headerLogo {
     top: 42%;
-    left: 44.5%;
+    /* left: 44.5%; */
+    left: 49%;
   }
 
   /* Animation: Flicker */
